@@ -1,0 +1,14 @@
+{
+  "referenceCount": 21,
+  "sourceProjects": 51,
+  "medianSfxPerMinute": 26.82,
+  "livelyQuartileSfxPerMinute": 30.26,
+  "maxSfxPerMinute": 56.84,
+  "medianThreeSecondWindowCoverage": 0.6153846153846154,
+  "requestedHighCadenceSeconds": 3,
+  "notes": [
+    "Source clip onsets, roles and gains come from project XML; mixed RMS/LUFS include voice and music and do not isolate SFX highs.",
+    "No audience analytics were supplied. These finished references are not labelled viral.",
+    "The three-second high cadence is the user request, not a claim that all past renders already achieved it."
+  ]
+}

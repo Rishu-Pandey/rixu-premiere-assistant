@@ -1,0 +1,11 @@
+.tools/
+node_modules/
+output/
+runtime/
+*.log
+__pycache__/
+.env
+uxp-native/connection.js
+panel/bridge-config.js
+dist/
+uxp-native/.uxprc

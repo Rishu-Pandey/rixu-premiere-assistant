@@ -1,0 +1,273 @@
+RIXU CAPTIONS + SFX ASSISTANT
+Current proposal - 28 October 2026
+Status: Historical design. Final user requirements and the development build are documented in README.md and VALIDATION.md; they supersede provisional choices below.
+
+PRODUCT DIRECTION
+
+Your main workflow is captioning and using sound effects from your own library.
+Make these the first release. General timeline editing remains a supporting
+capability and a possible later expansion.
+
+The proposed panel combines caption editing, searchable personal SFX, and
+natural-language directions for placing sounds at specific words or moments.
+Start with your installed Premiere 26.2.0 and retain the planned modern/legacy
+connectors for a tested range of other versions.
+
+USER-SPECIFIED SETTINGS
+- Caption outputs: both standard subtitles and animated graphic captions.
+- SFX behavior: automatically choose/place sounds using your instructions.
+- Library root: D:\Asset\SFX, including all nested folders.
+- Dialogue: English and Hinglish.
+- Provisional writing choice: Roman-script Hindi mixed with English for Hinglish;
+  preserve code switching rather than translating everything into English.
+
+1. THE WORKFLOW
+
+Select a finished sequence or marked range -> get a timed transcript -> correct
+and group captions -> choose a style -> identify sound cues -> search your
+library recursively -> automatically place matching sounds -> review playback
+and optionally audition replacements.
+
+Example instruction, illustrating configurable preferences:
+'Use my short-caption style. Add a soft pop on the three marked keywords and
+a whoosh ending at this transition. Use only my library and keep the sounds
+under the dialogue.'
+
+Caption text, words, markers and cut locations share one timing map. A sound
+can follow a particular spoken word, a graphic entrance, a marker or a cut.
+A later timing change marks dependent cues for re-analysis; it must not silently
+move sounds whose intended anchors are no longer clear.
+
+2. CAPTIONS MODULE
+
+Input:
+- Reuse an existing transcript when accessible, or obtain transcription from
+  the selected dialogue audio through a configured transcription provider.
+- Import timed captions/transcripts when already available.
+- Resolve which audio track represents the intended dialogue.
+
+Editing:
+- Word timing and editable caption blocks.
+- Spelling, names and punctuation corrections with changes visible for review.
+- Phrase grouping, words per block, maximum lines, gap/minimum-duration settings.
+- Keep the spoken meaning; do not silently paraphrase the dialogue.
+- Allow a project dictionary and reusable caption presets.
+
+Output has two distinct options:
+A. Standard subtitle captions: timed text with a native caption/SRT workflow.
+B. Animated graphic captions: a tested editable template workflow with controls
+   for word emphasis, color and animation where the host supports it.
+
+SRT is a timing/text exchange route. It does not preserve rich animation or
+provide portable control of all fonts, positioning and word highlighting.
+
+Both caption output types are required. Start with a readable subtitle preset
+and a simple word-highlight/pop graphic preset, with editable design controls.
+Validate English and Hinglish separately, including mixed-language sentences,
+names and consistent Roman-script Hindi spelling. Keep correction and timing
+alignment separate so a spelling correction does not silently move sound cues.
+Do not assume that one transcription model is accurate for every language.
+
+3. YOUR SFX LIBRARY
+
+Connect D:\Asset\SFX recursively, preserving full relative paths and nested
+folder context. A read-only inventory found 17 nested folders, including
+SIGNAL's sound-family subfolders and Whoosh Sfx Pack\02-Whoosh Sfx Pack.
+The recursive audit contains 522 audio-container files, 19 video-container
+files and 3 other/hidden files. There are 540 audio-bearing files: one video
+has no audio stream. Per-file technical results are saved in library-audit.
+Build a local catalog containing:
+- Original path, display name, folders, user tags and favorites.
+- Duration, sample rate, channel count and audio-preview information.
+- Duplicate identity and availability so moved/offline files can be identified.
+- An optional preferred sync point: file start, audible onset or impact peak.
+
+Start retrieval with filenames and folder context as a first filter, then use
+audio evidence from the requested Real SFX and Earshot skills. Real SFX measures
+attack, decay, audible duration, spectral character and channel behavior. Earshot
+provides local semantic audio matching and ranked descriptions with measured
+evidence. Allow searches such as 'short soft pop', 'deep impact' or 'rising whoosh'.
+AI maps instructions to sound descriptions and queries the measured catalog.
+Poorly named files remain searchable by their audio content. Model descriptions
+and similarity scores are provisional evidence; they do not establish taste,
+recording provenance, licensing, or suitability for a particular edit.
+
+For long recordings and bundled collections, search candidate segments and check
+their starts/tails before use. Whole-file semantic tags sample long recordings
+and do not certify every sound inside them. Keep chosen source ranges and their
+onset/arrival/peak anchor in the placement plan. Use only your connected library;
+disable fallback UI packs and generated sound for this workflow.
+
+Earshot does not transcribe spoken words. English/Hinglish caption transcription
+requires a separate transcription/alignment component; sound analysis cannot
+replace it. Reviewing sync, masking and pacing requires an actual video or mix,
+so library analysis alone must not be presented as a finished sound-design review.
+
+Show an audition button, duration and file location for each result. Let you
+replace a sound after automatic placement or optionally review first. Preserve
+the original files. Check video containers for audio; visual overlays without
+audio must not be treated as sound effects. Track bundled collections as
+source segments where necessary, rather than placing a complete compilation.
+
+4. SFX PLACEMENT
+
+Supported cue types to build first:
+- A chosen effect at the playhead or an explicit sequence time.
+- A sound anchored to a selected word, caption entrance, marker or cut.
+- A sound ending at a transition or an impact peak aligned to the cue.
+
+The placement plan records the library file, source trim, sync point, sequence
+time, destination track, level and optional fades. A whoosh's start may precede
+the target cut; an impact file may contain leading silence. Align the intended
+audible event rather than blindly aligning every file's start.
+
+Use dedicated SFX tracks and explicit overlap rules. Placement should preserve
+the picture edit. Provide density limits, minimum spacing, repetition avoidance
+and favorites/exclusions as recipe preferences. Do not add one sound per word
+unless that is the requested style.
+
+Level controls distinguish relative gain changes from absolute values. Compare
+against dialogue during playback and meter the combined result. 'Quiet' is a
+creative preference, not a universal fixed gain value.
+
+Sound-design analysis requested by you:
+- Real SFX provides library measurement, source-segment and arrival/peak placement
+  rules, dialogue-preservation checks and a critique workflow.
+- Earshot provides local calibrated semantic matching and an independent AudioSet
+  cross-check for representative candidates, plus objective audio measurements.
+- Keep one persistent local analysis worker and cache audio features/embeddings;
+  do not reload the models or re-analyse every file for each caption or command.
+- A caption entrance alone does not require a sound. Use the instruction's
+  emphasis and density rules; reserve larger accents for selected moments.
+- Library analysis is complete only to its reported coverage. For a real edit,
+  verify chosen source ranges, alignment, dialogue masking, headroom and mono
+  playback. Do not substitute a launch-film scoring profile for your taste.
+- Prefer editable individual SFX clips in Premiere. A separate SFX stem/export
+  can be an optional handoff, rather than flattening all placements by default.
+
+5. TWO OPERATING MODES
+
+Suggestion mode: the tool proposes caption changes and sound cues, lets you
+audition/replace candidates and applies the accepted plan.
+
+Automatic recipe mode: it places sounds under explicit saved rules, then shows
+the resulting placements for review and replacement.
+
+Automatic recipe mode is your chosen default. A single Run instruction starts
+the supported operation; individual sound placements do not require repeated
+approval. Review, replace and recovery remain available afterward. Suggestion
+mode is optional. If no suitable sound can be identified, leave the cue unfilled
+and explain it rather than inventing a library file or using an arbitrary sound.
+
+6. PREMIERE INTEGRATION: WHAT MUST BE PROVEN
+
+Adobe documents transcript exchange/transcription and sequence media placement
+through UXP [1], [2]. These are building blocks for the design, not evidence
+that the complete workflow already works on your installed release.
+
+CaptionTrack's documented controls do not establish full caption text/style
+editing [3]. Test native-caption generation/import and style application early.
+Where the host API cannot complete a step, provide an explicit native import
+step or a supported alternative; label it accurately in the workflow [4].
+
+Do not equate inserting a MOGRT with being able to update every template's text
+and word styling. The documented MogrtText class is marked Since 27.0, so that
+specific interface is not a valid baseline for your 26.2 installation [5].
+Animated captions need an early proof on 26.2 using the exact template and
+connector. Evaluate a supported alternative adapter if necessary. If no editable
+route passes, discuss the remaining manual step before expanding the feature.
+
+Likewise, Adobe's current help describes native single-word captions [6], but
+current help does not prove availability in 26.2 or complete plugin control.
+
+Compatibility plan:
+- 26.2.0 on your Windows machine is the first integration target.
+- UXP is the modern connector; selected older hosts may use CEP/ExtendScript.
+- Caption output capabilities and SFX placement are tested independently.
+- The transcript/cue/recipe data stays independent of Premiere's connector.
+- A published build lists exact tested versions and any manual import steps.
+- Support for every version with identical features is not promised.
+
+7. FIRST RELEASE AND BUILD ORDER
+
+Stage A - Prove both core integrations before polishing the panel.
+Use a short sequence to obtain timed dialogue, deliver editable captions through
+the chosen route, and place one local sound on an SFX track at a word/cut.
+Verify frame alignment, text editability, audio level controls and recovery.
+Prove the exact animated template now, because both caption styles are required.
+
+Stage B - Caption editor.
+Implement transcript correction, grouping/timing, English/Hinglish handling,
+one standard subtitle preset and one animated graphic preset, preview and the
+tested Premiere delivery routes. Add more styles after both complete workflows
+work. Roman-script Hindi is a provisional display default, not a transcription
+quality guarantee.
+
+Stage C - Library browser.
+Scan D:\Asset\SFX and every nested folder, index filenames/tags/metadata,
+audition and search, and insert a chosen result at an explicit cue. Include
+audio-bearing video containers only through a tested audio-only import route.
+Resolve exact duplicates and collection segments. Confirm imported files by path.
+
+Stage D - AI cue planning.
+Use your instructions to propose where sounds belong and which library entries
+fit. Connect caption keywords and edit markers to the same timing map.
+Automatically place matching sounds using your instructions and saved density,
+repetition, timing and level rules. Offer replacements and reusable recipes.
+
+Stage E - Compatibility and packaging.
+Run the caption and SFX workflow on selected older hosts. Package the supported
+connectors and companion with setup instructions and exact feature limitations.
+
+8. ACCEPTANCE SCENARIO
+
+On an agreed short test sequence:
+- Caption text is correct after your review and stays aligned to the dialogue.
+- The chosen caption style can be edited as advertised after delivery.
+- Search retrieves your known library examples and auditions the right file.
+- Every inserted effect comes from an existing file in the connected library.
+- Word/cut cues align to the intended onset/peak within one sequence frame.
+- Placement leaves picture timing intact and respects the target track policy.
+- Replacing a sound preserves the cue's intended alignment.
+- Re-running a recipe detects its existing placements instead of duplicating them.
+- Moving a source file, changing the edit or canceling a job produces a clear
+  recoverable state, rather than a false completion message.
+- Playback and metering confirm that SFX levels suit the agreed dialogue mix.
+- The same declared features pass on each claimed supported Premiere build.
+
+9. CURRENT DESIGN STATUS
+
+The major preferences are now specified: both caption styles, English/Hinglish,
+automatic placement from your own library, and recursive folder coverage.
+The visual presets can be refined from the first working examples. Roman-script
+Hinglish is a provisional default that can be changed without redesigning the tool.
+
+A read-only recursive technical inventory is saved in library-audit. It covers
+paths, metadata and exact duplicates across all 17 nested folders. Real SFX
+measurements now cover all 540 audio-bearing files, including audio inside video
+containers. Earshot scanned 537 unique audio contents (exact copies reuse their
+evidence); 530 file entries have descriptions and 10 effectively silent entries
+are excluded from matching. There are 23 representative describe/AudioSet
+cross-checks. The SOUND_DESIGN_FINDINGS.txt report records evidence and limits.
+Shortlist duration filters use decoded audio lengths, not estimated metadata.
+No source media has been changed or uploaded. The functional Premiere plugin
+still needs its integration proof; this analysis does not certify API support.
+
+OFFICIAL SOURCES
+
+[1] Transcript API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/transcript/
+[2] SequenceEditor API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/sequenceeditor/
+[3] CaptionTrack API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/captiontrack/
+[4] Import caption files
+https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/import-caption-file-from-third-party-service.html
+[5] MogrtText API and minimum version
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/mogrttext
+[6] Native single-word captions
+https://helpx.adobe.com/premiere/desktop/add-text-images/insert-captions/create-single-word-captions.html
+[7] Real SFX skill and supporting analysis scripts
+https://github.com/Clipwing/skills/tree/main/skills/real-sfx
+[8] Earshot skill and local audio-analysis engine
+https://github.com/Leonxlnx/earshot

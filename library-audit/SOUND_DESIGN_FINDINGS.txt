@@ -1,0 +1,206 @@
+SOUND-DESIGN LIBRARY ANALYSIS - REAL SFX + EARSHOT
+Prepared for the captions/SFX Premiere assistant, 28 October 2026.
+Source library: D:\Asset\SFX (recursive, original files preserved)
+
+COVERAGE
+All 17 nested folders inventoried; 541 media files.
+522 audio-container files and 19 video-container files; 540 contain audio.
+Real SFX scanned 522 audio files and produced 521 measurement records,
+dropping 1 entries through its name/duration/level re-export heuristic.
+That heuristic is separate from the audit's SHA-256 exact-duplicate check.
+Supplementary Real SFX measurements cover 19 extra files (audio in video and the omitted entry).
+Total files with retained waveform measurements: 540.
+Earshot: 540/540 audio-bearing files processed;
+537/537 unique contents analysed; exact duplicates reuse evidence.
+530 files have sound descriptions; 10 effectively silent files are flagged and excluded from sound matching.
+23 representative files have describe/AST/measurement reports.
+
+FOLDER COVERAGE (direct media / media including descendants)
+.: 143 / 541
+Asmr: 26 / 26
+Hits: 50 / 50
+overlays: 4 / 9
+overlays\Overlays: 5 / 5
+SIGNAL: 0 / 269
+SIGNAL\Analog_FX: 18 / 18
+SIGNAL\Beeps: 63 / 63
+SIGNAL\Distorted_Signals: 10 / 10
+SIGNAL\Electrical: 13 / 13
+SIGNAL\Glitches: 72 / 72
+SIGNAL\Noise: 24 / 24
+SIGNAL\Pulses: 23 / 23
+SIGNAL\Record: 25 / 25
+SIGNAL\Transmission: 21 / 21
+User Interface: 30 / 30
+Whoosh Sfx Pack: 2 / 14
+Whoosh Sfx Pack\02-Whoosh Sfx Pack: 12 / 12
+
+MEASURED FINDINGS
+106 indexed sounds have over 1 second between file duration and measured active end.
+Use audible duration and preserve the decay when preparing an insertion; file length alone is insufficient.
+7 indexed sounds have stereo correlation below -0.75.
+These may lose level in mono; keep an explicit mono-safe handling option and validate the result.
+  SIGNAL\Noise\Noise_Static_02.wav: correlation -0.86
+  SIGNAL\Noise\Noise_TV_On_01.wav: correlation -0.97
+  SIGNAL\Record\Record_Static_01.wav: correlation -0.86
+  SIGNAL\Record\Record_Warp_03.wav: correlation -0.83
+  SIGNAL\Record\Record_Warp_09.wav: correlation -0.82
+  SIGNAL\Record\Record_Warp_11.wav: correlation -0.85
+  ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3: correlation -0.83
+Earshot cross-check: the flagged files lose the following RMS level when L/R are averaged to mono
+(relative to their stereo-channel RMS; this is a signal measurement, not a taste judgment):
+  Noise_Static_02.wav: -11.40 dB
+  Noise_TV_On_01.wav: -17.94 dB
+  Record_Static_01.wav: -11.37 dB
+  Record_Warp_03.wav: -10.40 dB
+  Record_Warp_09.wav: -10.43 dB
+  Record_Warp_11.wav: -11.16 dB
+  ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3: -10.16 dB
+3 exact duplicate groups were found; originals were not deleted.
+Files without audio streams, excluded from matching: Money_Rain_1.mov
+Some files are bundled collections; candidate segments need their own attack/tail checks.
+Real SFX role counts below use name/catalog rules, not semantic validation:
+misc=170, glitch=112, ui=96, whoosh=43, riser=18, hit=18, click=13, ambience=12, camera=9, foley=8, meme=5, glass=4, paper=3, vehicle=3, sub_drop=2, design=1, scifi=1, water=1, error=1, coin=1
+53 files have container-reported duration differing from decoded duration by over 250 ms.
+Shortlist duration limits use decoded waveform duration, not estimated container metadata.
+Entry omitted by Real SFX re-export heuristic: Whoosh Sfx Pack\02-Whoosh Sfx Pack\fast-rocket-whoosh-1714.mp3
+
+EARSHOT SOUND MATCHES - SHORTLISTS, NOT A HUMAN TASTE VERDICT
+Queries describe the sound itself. These are description-match z statistics, not probabilities.
+Strong >=3; plausible 2.5 to <3; weak 2 to <2.5; below 2 is not a match.
+Caption and transition lists apply stated file-duration limits; long-pack trims are separate.
+
+caption_pop (whole-file duration <= 1.5s)
+  z +3.276 [strong] 98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac
+  z +3.148 [strong] 99192_719731_Graphix_-_Pop_02_-_Foley-_Finger_Drum_On_A_Tiny_Vase.aac
+  z +2.271 [weak] 73231_561545_561544_Swoosh_-_WHSH__Whooshing_Low_01-03_normal.aac
+
+caption_click (whole-file duration <= 1s)
+  z +3.723 [strong] perfect click.aac
+  z +3.149 [strong] SIGNAL\Beeps\Beep_High_11.wav
+  z +2.927 [plausible] 98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac
+
+transition_whoosh (whole-file duration <= 3s)
+  z +4.485 [strong] Whoosh Sfx Pack\02-Whoosh Sfx Pack\15. Whoosh Swoosh.wav
+  z +4.263 [strong] 834939_834889_Short_Airy_Woosh_03_-_SFO-23-000516_-_MASTERED_-_2496.aac
+  z +4.176 [strong] 834932_834890_Short_Airy_Woosh_04_-_SFO-23-000516_-_MASTERED_-_2496.aac
+
+soft_impact (whole-file duration <= 2s)
+  z +1.328 [no match] 98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac
+  z +1.110 [no match] Hits\One Hits-025.wav
+  z +1.109 [no match] Hits\One Hits-034.wav
+
+heavy_impact (whole-file duration <= 6s)
+  z +4.168 [strong] 99707_722488_SCIFIGAME_Weapon-_Explosion_A-_Metallic-_Plasma_.aac
+  z +4.054 [strong] doubleImpact.aac
+  z +3.971 [strong] Hits\One Hits-030.wav
+
+notification (whole-file duration <= 3s)
+  z +2.034 [weak] 64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac
+  z +1.786 [no match] Shine Collect.wav
+  z +1.753 [no match] SIGNAL\Beeps\Beep_High_02.wav
+
+glitch (whole-file duration <= 3s)
+  z +4.835 [strong] SIGNAL\Glitches\Glitch_High_07.wav
+  z +4.585 [strong] SIGNAL\Glitches\Glitch_Small_11.wav
+  z +4.474 [strong] SIGNAL\Beeps\Beep_Computer_01.wav
+
+riser (whole-file duration <= 15s)
+  z +4.283 [strong] Futuristic Riser.mp3
+  z +3.697 [strong] Whoosh Sfx Pack\95226_698276_Heavy_Hitters_-_Rise_and_Steve_.aac
+  z +3.663 [strong] 52882_438720_438719_Cinematic_Transitions_and_Hits_-_approach_2_normal.aac
+
+typing (whole-file duration <= 30s)
+  z +4.183 [strong] Asmr\67743_533636_533635_Typing_-_Desktop_Computer_Plastic_Keyboard_Deep_Keys_Typing_Slower_and_Faster-01_normal.aac
+  z +3.123 [strong] Old Mechanical Typewriter sound effect.mp3
+  z +2.904 [plausible] Rapid Camera Shutter _ HQ Sound Effect 0.mp3
+
+paper (whole-file duration <= 10s)
+  z +3.253 [strong] 67079_529934_529933_Paper_Collection_-_Encyclopedia_Glossy_Pages_Sweep_normal.aac
+  z +2.496 [weak] Satisfying Sounds of Pages Being Flipped in a Book _  #Shorts.mp3
+  z +1.964 [no match] Asmr\yt1z.net - Glasses sound effect (no copyright) (320 KBps).mp3
+
+room_tone
+  z +4.338 [strong] Asmr\70942_549739_549738_Ambience_Pack01_-_RoomTone_BathRoom-01_ambience.aac
+  z +2.894 [plausible] 70078_545050_545047_18_Room_Tones_AMBIENCE_ROOM_Studio_Noise_Silent-01_normal.aac
+  z +2.402 [weak] SIGNAL\Transmission\Transmission_21.wav
+
+REPRESENTATIVE CROSS-CHECKS
+834932_834890_Short_Airy_Woosh_04_-_SFO-23-000516_-_MASTERED_-_2496.aac
+1.23 s short one-shot (attack 65 ms, decays in 110 ms). Sounds most like: a fast whoosh (z +5.2), a stick swung fast through the air (z +3.9), a swoosh passing by (z +3.5) [clear reading]. AudioSet: Whoosh, swoosh, swish 0.66, Sound effect 0.13. peak -1.1 dBFS, -16.1 LUFS, brightness 1.3 kHz, bandwidth 12.9 kHz, noise floor -94 dBFS, side/mid 1 dB.
+Asmr\67743_533636_533635_Typing_-_Desktop_Computer_Plastic_Keyboard_Deep_Keys_Typing_Slower_and_Faster-01_normal.aac
+20.01 s busy, 6.4 onsets/s, loudness range 6 LU. Sounds most like: a laptop keyboard typing (z +4.3), slow typing with separate key presses (z +4.2), a keyboard typing fast (z +4.1) [clear reading]. Other readings: a typing cursor blip (ui, z +2.7). AudioSet: Computer keyboard 0.76, Typing 0.65, Crumpling, crinkling 0.06. peak -3.3 dBFS, -29.0 LUFS, brightness 4.2 kHz, bandwidth 20.5 kHz, mono. Windows that read differently: 0:00.00-0:10.00 slow typing with separate key presses (z +4.2; AudioSet Computer keyboard 0.12); 0:10.01-0:20.01 a single mechanical keyboard key press (z +4.2; AudioSet Computer keyboard 0.46).
+Hits\One Hits-002.wav
+0.32 s short transient (attack 0 ms, decays in 97 ms). Sounds most like: a triangle hit (z +4.8), a punchy impact hit (z +2.7), a metal scrape (z +2.5) [clear reading]. Other readings: a bicycle bell (everyday, z +2.0), digging in soil (nature, z +2.0). Unvalidated hint: crisp hi-hats (z +4.2). AudioSet: Clang 0.50, Ding 0.40. peak 1.1 dBFS, brightness 10.0 kHz, bandwidth 20.5 kHz, mono.
+overlays\overlay 1.mp4
+5.48 s of near-silence (peak -240 dBFS): nothing to describe; model tags of silence are meaningless.
+overlays\Overlays\-Overlay 5.mp4
+10.50 s 4 separate events, tonal, pitch ~61 Hz (B1) (attack 104 ms, decays in 2.6 s). Sounds most like: a phone vibration buzz (z +2.6), a sub bass drop (z +2.3), a car engine starting (z +2.1) [plausible reading]. AudioSet: Music 0.49, Speech 0.15, Hum 0.09. peak 0.2 dBFS, -15.6 LUFS, brightness 3.1 kHz, bandwidth 16.3 kHz, noise floor -37 dBFS, side/mid -7 dB.
+SIGNAL\Analog_FX\Camera_Click_01.wav
+0.94 s short one-shot (attack 24 ms, decays in 191 ms). Sounds most like: a camera shutter click (z +4.7), a ratchet clicking (z +2.6), a phone vibration buzz (z +2.4) [clear reading]. Other readings: a soft key release click (keyboard, z +2.0), a motorcycle revving (everyday, z +1.9). AudioSet: Single-lens reflex camera 0.88, Camera 0.05. peak -0.8 dBFS, -18.7 LUFS, brightness 8.2 kHz, bandwidth 20.5 kHz, mono.
+SIGNAL\Beeps\Beep_Low_01.wav
+4.01 s busy, 8.5 onsets/s (attack 171 ms, decays in 1815 ms). Sounds most like: bubbles underwater (z +4.8), being underwater (z +3.4), a deep cinematic whoosh (z +2.6) [clear reading]. Other readings: a sustained glass harp tone (chimes, z +2.5), a cinematic hit with a long tail (impacts, z +2.1). AudioSet tagger unsure (Sound effect 0.12). peak -0.2 dBFS, -6.4 LUFS, brightness 397 Hz, bandwidth 3.2 kHz, noise floor -50 dBFS, side/mid -1 dB.
+SIGNAL\Distorted_Signals\Distorted_Signal_Low_03.wav
+7.51 s busy, 8.8 onsets/s (attack 186 ms, decays in 33 ms). Sounds most like: a stutter glitch transition (z +3.8), a digital glitch (z +3.1), a record scratch (z +2.4) [clear reading]. Other readings: a balloon squeak (foley, z +2.4), a crackling fire (ambience, z +1.9). AudioSet tagger unsure (Static 0.14, Burst, pop 0.08, Eruption 0.06). peak -5.5 dBFS, -23.7 LUFS, brightness 5.0 kHz, bandwidth 20.5 kHz, noise floor -68 dBFS, side/mid -0 dB.
+SIGNAL\Electrical\Zap_08.wav
+3.45 s 2 separate events, tonal, pitch ~236 Hz (Bb3) (attack 21 ms, decays in 1636 ms). Music (AudioSet Music 0.70). Unvalidated hints - genre: funk music (z +1.4); mood (wrong for ~1 in 5 tracks in a test): . Sounds most like: a downlifter falling sweep (z +3.7), an uplifter sweep (z +2.7), a cinematic hit with a long tail (z +2.1) [clear reading]. Other readings: a triangle hit (chimes, z +2.0), an error buzz (ui, z +2.0). AudioSet: Music 0.70, Sound effect 0.19, Electronic music 0.09. peak -2.1 dBFS, -15.9 LUFS, brightness 5.2 kHz, bandwidth 20.5 kHz, noise floor -70 dBFS, side/mid -23 dB.
+SIGNAL\Glitches\Glitch_High_07.wav
+0.40 s busy, 10.0 onsets/s (attack 9 ms, decays in 318 ms). Sounds most like: a digital glitch (z +4.1), an error buzz (z +3.8), a stutter glitch transition (z +2.9) [clear reading]. Other readings: a snare hit (impacts, z +1.9), a spacebar press (keyboard, z +1.7). AudioSet tagger unsure (Sound effect 0.12, Beep, bleep 0.06). peak -0.7 dBFS, -11.0 LUFS, brightness 10.8 kHz, bandwidth 20.5 kHz, side/mid -8 dB.
+SIGNAL\Noise\Noise_Static_10.wav
+0.99 s busy, 8.1 onsets/s (attack 11 ms, decays in 266 ms). Sounds most like: a spray can hissing (z +4.8), a balloon squeak (z +2.6), coins dropping (z +2.5) [clear reading]. Other readings: ice cubes in a glass (water, z +2.4). Unvalidated hint: crisp hi-hats (z +4.0). AudioSet tagger unsure (Spray 0.16, Snake 0.11). peak -2.1 dBFS, -11.3 LUFS, brightness 12.7 kHz, bandwidth 20.5 kHz, side/mid -6 dB.
+SIGNAL\Pulses\Pulses_07.wav
+14.78 s busy, 9.1 onsets/s, tonal, pitch ~380 Hz (F#4) (attack 243 ms, decays in 1916 ms). Sounds most like: bubbles underwater (z +4.0), being underwater (z +3.3), a digital glitch (z +2.1) [clear reading]. Other readings: a sub bass drop (impacts, z +2.1), a squishy wet squelch (foley, z +2.1). AudioSet: Heart murmur 0.47, Music 0.23, Throbbing 0.09. peak -0.2 dBFS, -14.8 LUFS, brightness 249 Hz, bandwidth 3.2 kHz, noise floor -27 dBFS, side/mid -4 dB.
+SIGNAL\Record\Record_Warp_12.wav
+1.25 s busy, 7.2 onsets/s (attack 215 ms, decays in 606 ms). Sounds most like: a record scratch (z +4.9), a balloon squeak (z +2.9), a rubber stretch (z +2.6) [clear reading]. Other readings: a printer printing (everyday, z +2.5), a phone vibration buzz (ui, z +2.3). AudioSet: Scratch 0.39, Music 0.29, Scratching (performance technique) 0.17. peak -2.6 dBFS, -13.0 LUFS, brightness 724 Hz, bandwidth 12.9 kHz, noise floor -19 dBFS, side/mid 5 dB.
+SIGNAL\Transmission\Transmission_04.wav
+3.24 s sustained (attack 101 ms, decays in 1416 ms). Sounds most like: a spray can hissing (z +4.2), a phone vibration buzz (z +2.6), a digital glitch (z +2.3) [clear reading]. Other readings: an electrical hum (ambience, z +1.7), a rubber stretch (foley, z +1.7). AudioSet: Static 0.26, Sound effect 0.06. peak -3.0 dBFS, -15.9 LUFS, brightness 5.6 kHz, bandwidth 20.5 kHz, noise floor -52 dBFS, mono.
+User Interface\Login Ident.wav
+2.97 s 4 separate events, tonal, pitch ~177 Hz (F3) (attack 113 ms, decays in 2.3 s). Sounds most like: a kalimba note (z +4.2), a glockenspiel run (z +2.9), a sustained glass harp tone (z +2.8) [clear reading]. Other readings: a success chime (ui, z +2.4). Unvalidated hint: a marimba (z +4.0). AudioSet: Marimba, xylophone 0.57, Music 0.32, Glockenspiel 0.17. peak -0.1 dBFS, -8.2 LUFS, brightness 245 Hz, bandwidth 2.6 kHz, noise floor -51 dBFS, side/mid -19 dB.
+Whoosh Sfx Pack\02-Whoosh Sfx Pack\24. Whoosh Swoosh.wav
+4.00 s 5 separate events (attack 156 ms, decays in 355 ms). Sounds most like: a fast whoosh (z +4.8), a swoosh passing by (z +4.0), a deep cinematic whoosh (z +3.9) [clear reading]. Other readings: a cinematic hit with a long tail (impacts, z +2.7). AudioSet: Whoosh, swoosh, swish 0.74, Sound effect 0.17. peak -2.8 dBFS, -16.1 LUFS, brightness 1.3 kHz, bandwidth 20.5 kHz, digital silence between sounds, side/mid -10 dB.
+Whoosh Sfx Pack\95226_698276_Heavy_Hitters_-_Rise_and_Steve_.aac
+9.15 s busy, 5.0 onsets/s (attack 0 ms, decays in 1909 ms). Music (AudioSet Music 0.56). Unvalidated hints - genre: epic trailer music (z +2.1), techno music (z +1.9); mood (wrong for ~1 in 5 tracks in a test): suspenseful build-up music (z +3.1), futuristic music (z +2.4). Sounds most like: a cinematic hit with a long tail (z +4.6), a downlifter falling sweep (z +3.6), a rising riser building tension (z +3.3) [clear reading]. AudioSet: Music 0.56, Whoosh, swoosh, swish 0.15, Sound effect 0.07. peak -2.2 dBFS, -20.6 LUFS, brightness 3.8 kHz, bandwidth 16.3 kHz, noise floor -72 dBFS, side/mid -9 dB.
+98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac
+0.51 s short swell (attack 187 ms, decays in 14 ms). Sounds most like: a mouth pop (z +2.8), a suction cup pop (z +2.4), a wooden block hit (z +2.3) [plausible reading]. Other readings: a punchy impact hit (impacts, z +2.2), a heartbeat (everyday, z +2.1). Character: dry close. AudioSet tagger unsure (Clapping 0.09, Sound effect 0.07). peak -2.2 dBFS, -22.4 LUFS, brightness 1.3 kHz, bandwidth 12.9 kHz, side/mid -2 dB.
+perfect click.aac
+0.39 s short transient (attack 3 ms, decays in 42 ms). Sounds most like: a kalimba note (z +2.7), a wooden block hit (z +2.6), ice cubes in a glass (z +2.6) [plausible reading]. Other readings: a scroll wheel tick (ui, z +2.5), a soft key release click (keyboard, z +2.4). AudioSet tagger unsure (Sound effect 0.12, Beep, bleep 0.08). peak -4.0 dBFS, brightness 5.5 kHz, bandwidth 20.5 kHz, mono.
+Whoosh Sfx Pack\02-Whoosh Sfx Pack\15. Whoosh Swoosh.wav
+1.47 s busy, 2.7 onsets/s (attack 225 ms, decays in 303 ms). Sounds most like: a fast whoosh (z +4.7), a soft air whoosh (z +3.9), a deep cinematic whoosh (z +3.6) [clear reading]. AudioSet: Whoosh, swoosh, swish 0.61, Sound effect 0.09. peak -13.3 dBFS, -27.0 LUFS, brightness 847 Hz, bandwidth 8.1 kHz, digital silence between sounds, side/mid -8 dB.
+overlays\overlay 3.mp4
+1.46 s of near-silence (peak -240 dBFS): nothing to describe; model tags of silence are meaningless.
+64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac
+2.24 s short transient (attack 3 ms, decays in 372 ms). Sounds most like: a triangle hit (z +4.1), a bicycle bell (z +3.7), a small bell (z +3.2) [clear reading]. Other readings: coins dropping (foley, z +3.1), a success chime (ui, z +2.9). AudioSet: Ding 0.83, Clang 0.13, Ping 0.05. peak -4.3 dBFS, -24.3 LUFS, brightness 10.1 kHz, bandwidth 20.5 kHz, noise floor -110 dBFS, side/mid 1 dB.
+AiryWOOSH.aac
+3.37 s busy, 1.8 onsets/s, tonal, pitch ~53 Hz (Ab1) (attack 265 ms, decays in 516 ms). Sounds most like: a deep cinematic whoosh (z +4.1), a fast whoosh (z +3.8), a soft air whoosh (z +3.6) [clear reading]. Other readings: a deep cinematic boom (impacts, z +3.3). AudioSet: Whoosh, swoosh, swish 0.33, Sound effect 0.10, Music 0.10. peak -2.0 dBFS, -24.5 LUFS, brightness 52 Hz, bandwidth 1.0 kHz, noise floor -98 dBFS, side/mid -21 dB.
+
+HOW THIS CHANGES THE TOOL DESIGN
+1. Keep nested paths and exact source identity in the searchable local index.
+2. Use names/folders for triage, then semantic description scores and measured duration/shape.
+3. Find a clean segment inside a long recording; keep source in/out and onset/arrival/peak anchors.
+4. Place sounds from this library automatically according to the instruction and density rules.
+5. Preserve dialogue; assess level, masking, repetition and mono playback in the actual mix.
+6. Store your replacements/favourites as explicit preferences, not inferred taste scores.
+7. Leave an unsupported or unmatched cue empty and report it. Do not invent a library file.
+
+LIMITS
+This is a library analysis, not a critique of a particular edited film.
+No specific edit/video/mix has been supplied for sync-to-picture, dialogue masking or pacing assessment.
+Earshot does not transcribe English/Hinglish; captions need a separate transcription/alignment component.
+Long-file semantic evidence averages up to six 10-second windows; it does not cover every instant.
+Short one-shot model labels can be uncertain. Listen to candidates in context before judging taste.
+Audio models do not verify licensing, provenance, or that a sound is artistically suitable.
+No generated sounds, external UI pack, media upload, or source-library edit was used.
+
+SKILLS AND EVIDENCE
+Real SFX: C:\Users\rishu\.codex\skills\real-sfx\SKILL.md
+Earshot: C:\Users\rishu\.codex\skills\earshot\SKILL.md
+Sources: https://github.com/Clipwing/skills and https://github.com/Leonxlnx/earshot
+Real SFX measurements: real-sfx-index.json
+Supplementary video/audio measurements: real-sfx-extra-measurements.json
+Earshot per-file evidence: earshot-library-analysis.json and earshot-evidence.jsonl
+Representative descriptions: earshot-descriptions.json
+Earshot stereo/mono cross-check: earshot-mono-check.json
+Real SFX waveform/spectrogram sheet inspected: whoosh-candidates.png
+Original recursive inventory and hashes: sfx-library-catalog.json
+
+All report paths above are relative to this library-audit folder.

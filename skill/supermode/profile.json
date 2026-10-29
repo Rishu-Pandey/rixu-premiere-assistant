@@ -1,0 +1,1639 @@
+{
+  "name": "SUPERMODE",
+  "version": 1,
+  "captions": {
+    "english": "premiere_native",
+    "englishInput": "premiere_srt",
+    "hinglish": "srt_required",
+    "fontSize": 100,
+    "font": "EuropaGroteskSH-Med",
+    "maxWords": 5,
+    "color": "#ffffff",
+    "outline": "#111111",
+    "outlineWidth": 2,
+    "maxWidth": 0.88,
+    "animationSeconds": 0,
+    "animation": "none"
+  },
+  "layouts": {
+    "default": "full",
+    "fullY": 0.672,
+    "divider": 0.5,
+    "splitAnchor": "divider_center"
+  },
+  "emphasis": {
+    "figures": true,
+    "scale": 1.6,
+    "color": "#ffffff",
+    "keywords": [],
+    "font": "TimesNewRomanPS-BoldItalicMT"
+  },
+  "sfx": {
+    "library": "D:\\Asset\\SFX",
+    "recursive": true,
+    "intensity": "lively",
+    "minimumMatchZ": 2.5,
+    "gainDb": -8,
+    "maxDuration": 4,
+    "track": 2,
+    "excludeMonoRisk": true,
+    "cadence": {
+      "highEverySeconds": 3,
+      "highToleranceSeconds": 0.65,
+      "maxHighGapSeconds": 3.6,
+      "targetClipsPerMinute": 55,
+      "minimumClipsPerMinute": 45,
+      "maximumClipsPerMinute": 70,
+      "referenceSummary": {
+        "referenceCount": 21,
+        "sourceProjects": 51,
+        "medianSfxPerMinute": 26.82,
+        "livelyQuartileSfxPerMinute": 30.26,
+        "maxSfxPerMinute": 56.84,
+        "medianThreeSecondWindowCoverage": 0.6153846153846154,
+        "requestedHighCadenceSeconds": 3,
+        "notes": [
+          "Source clip onsets, roles and gains come from project XML; mixed RMS/LUFS include voice and music and do not isolate SFX highs.",
+          "No audience analytics were supplied. These finished references are not labelled viral.",
+          "The three-second high cadence is the user request, not a claim that all past renders already achieved it."
+        ]
+      }
+    }
+  },
+  "preserveOriginalSequence": true,
+  "referenceStyle": {
+    "learned": true,
+    "referenceCount": 6,
+    "highlightFraction": 0.518,
+    "highlightWords": {
+      "ai": 8,
+      "one": 5,
+      "claude": 4,
+      "it": 4,
+      "is": 4,
+      "your": 4,
+      "to": 4,
+      "free": 3,
+      "a": 3,
+      "s": 3,
+      "brain": 3,
+      "money": 3,
+      "google": 3,
+      "this": 3,
+      "happening": 3,
+      "model": 2,
+      "code": 2,
+      "7": 2,
+      "new": 2,
+      "answer": 2,
+      "its": 2,
+      "which": 2,
+      "of": 2,
+      "open": 2,
+      "source": 2,
+      "100": 2,
+      "agents": 2,
+      "same": 2,
+      "do": 2,
+      "anything": 2,
+      "fly": 2,
+      "making": 2,
+      "out": 2,
+      "actual": 2,
+      "in": 2,
+      "even": 2,
+      "trade": 2,
+      "team": 2,
+      "first": 2,
+      "second": 2,
+      "up": 2,
+      "the": 2,
+      "tavus": 2,
+      "are": 2,
+      "see": 2,
+      "you": 2,
+      "time": 2,
+      "what": 2,
+      "real": 2,
+      "estate": 2,
+      "companies": 2,
+      "future": 2,
+      "maps": 2,
+      "earth": 2,
+      "tool": 1,
+      "600": 1,
+      "models": 1,
+      "easy": 1,
+      "setup": 1,
+      "next": 1,
+      "best": 1,
+      "never": 1,
+      "ever": 1,
+      "again": 1,
+      "github": 1,
+      "billion": 1,
+      "tokens": 1,
+      "top": 1,
+      "llms": 1,
+      "chatgpt": 1,
+      "gemini": 1,
+      "glm": 1,
+      "grok": 1,
+      "freellm": 1,
+      "apis": 1,
+      "leave": 1,
+      "note": 1,
+      "skill": 1,
+      "completely": 1,
+      "insane": 1,
+      "another": 1,
+      "forces": 1,
+      "defend": 1,
+      "solution": 1,
+      "separate": 1,
+      "better": 1,
+      "rounds": 1,
+      "elimination": 1,
+      "survives": 1,
+      "coding": 1,
+      "problems": 1,
+      "business": 1,
+      "strategies": 1,
+      "research": 1,
+      "difficult": 1,
+      "decisions": 1,
+      "entire": 1,
+      "army": 1,
+      "strongest": 1,
+      "terrible": 1,
+      "rewriting": 1,
+      "prompt": 1,
+      "understands": 1,
+      "arena": 1,
+      "exact": 1,
+      "problem": 1,
+      "different": 1,
+      "strategy": 1,
+      "craziest": 1,
+      "thing": 1,
+      "connected": 1,
+      "trading": 1,
+      "app": 1,
+      "dopamine": 1,
+      "punished": 1,
+      "running": 1,
+      "few": 1,
+      "days": 1,
+      "mapped": 1,
+      "internet": 1,
+      "went": 1,
+      "crazy": 1,
+      "map": 1,
+      "160": 1,
+      "000": 1,
+      "virtual": 1,
+      "plug": 1,
+      "play": 1,
+      "games": 1,
+      "drive": 1,
+      "car": 1,
+      "bitcoin": 1,
+      "profitable": 1,
+      "loses": 1,
+      "addicted": 1,
+      "already": 1,
+      "own": 1,
+      "crew": 1,
+      "simple": 1,
+      "commands": 1,
+      "orchestrates": 1,
+      "multiagent": 1,
+      "19": 1,
+      "specialized": 1,
+      "third": 1,
+      "chrome": 1,
+      "devtools": 1,
+      "mcp": 1,
+      "vercel": 1,
+      "plugin": 1
+    },
+    "sfxPerMinute": 29.37,
+    "sfxMinGap": 0.24,
+    "sfxLanes": 3,
+    "familyCounts": {
+      "riser": 47,
+      "click": 52,
+      "notification": 26,
+      "whoosh": 8,
+      "impact": 2,
+      "typing": 3
+    },
+    "familyCycle": [
+      "click",
+      "riser",
+      "notification",
+      "whoosh",
+      "typing",
+      "impact",
+      "click",
+      "riser",
+      "notification",
+      "click",
+      "riser",
+      "click",
+      "riser",
+      "click"
+    ],
+    "preferredSounds": {
+      "59050_480663_vintage_cameras___33_konika_pop___flash_charging_fix_stereo_normal.aac": 7,
+      "flash type click.aac": 30,
+      "beep_high_12.wav": 4,
+      "snap sound effect for music producer.mp3": 2,
+      "evolution of galaxy low battery  #samsung   #samsunggalaxy   #low   #battery.mp3": 1,
+      "graphics beeps_adobestock_1925619735_preview.m4a": 5,
+      "15. whoosh swoosh.wav": 1,
+      "shine collect.wav": 9,
+      "riser sound an actually good one.mp3": 20,
+      "design element_adobestock_1925571325_preview.m4a": 1,
+      "perfect click.aac": 14,
+      "wind up gear clicks 02 sound effect sfx free for non profit projects.mp3": 2,
+      "sharp riser (1).wav": 5,
+      "es_bass, sharp detail riser - epidemic sound.mp3": 15,
+      "64950_518423_518422_explainer_video_-_bell_light_hit_ding_2_normal.aac": 4,
+      "99218_719830_misfunction_-_malfunction_02_-_designed-_wobble-_boom-_distorted.aac": 1,
+      "old mechanical typewriter sound effect.mp3": 3,
+      "whoosh and hit (3).wav": 1,
+      "vintage_click_02.wav": 1,
+      "86425_645157_645156_squish_and_squelch_-_toy_watering_can_empty-_air_through_spout_whistle_with_whoosh_ascend_left-_glug_light_as_can_empty_normal.aac": 1,
+      "money sound effect 4.mp3": 4,
+      "upload 2.wav": 1,
+      "one hits-002.wav": 1,
+      "camera_click_01.wav": 1,
+      "vintage_click_03.wav": 1,
+      "whoosh and hit (4).wav": 1,
+      "camera_click_02.wav": 1,
+      "734791_734758_hyperspace_-_ufo_37.aac": 1
+    },
+    "palette": [
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\3ada60aaa821607d.wav",
+        "originalPath": "D:\\Asset\\SFX\\flash type click.aac",
+        "relativePath": "flash type click.aac",
+        "sha256": "dd8be735d110a72c8d94cddbc24a9095b107efe222e97cf5f4835ccff213d849",
+        "duration": 1.52,
+        "activeDuration": 1.52,
+        "peakTime": 0.052,
+        "onset": 0.039,
+        "peakDb": -4.3,
+        "referenceGainDb": -2.0,
+        "family": "click",
+        "referenceUses": 30,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 1.52,
+          "peak_dbfs": -4.3,
+          "true_peak_dbtp": -4.2,
+          "rms_dbfs": -35.9,
+          "lufs": -26.2,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -98.9,
+          "dynamic_range_db": 78.8,
+          "digital_silence_frac": 0.0258,
+          "side_to_mid_db": -17.9,
+          "correlation": 0.968,
+          "attack_at": 0.039,
+          "peak_at": 0.052,
+          "attack_ms": 11.0,
+          "decay_ms": 150.0,
+          "centroid_hz": 4647,
+          "rolloff95_hz": 9819,
+          "bands_db": {
+            "sub": -38.5,
+            "low": -22.7,
+            "lowmid": -10.6,
+            "mid": -4.4,
+            "presence": -3.6,
+            "air": -10.1,
+            "top": -22.0
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0314,
+          "brightness_hz": 5892,
+          "tonal_peak_ratio_db": 24.6
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.817
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.153
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.81
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.295
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.652
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.867
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.683
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 2.04
+          }
+        },
+        "referenceMatch": true,
+        "description": "a camera shutter click",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\a58a88c3fc14fcf5.wav",
+        "originalPath": "D:\\Asset\\SFX\\Riser Sound An Actually Good One.mp3",
+        "relativePath": "Riser Sound An Actually Good One.mp3",
+        "sha256": "2af9922c6d4f40d85074872a0fe0964ba876ca365e86f94402eede1bf56e005b",
+        "duration": 3.167,
+        "activeDuration": 3.167,
+        "peakTime": 1.808,
+        "onset": 0.617,
+        "peakDb": -1.8,
+        "referenceGainDb": -12.0,
+        "family": "riser",
+        "referenceUses": 20,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 3.167,
+          "peak_dbfs": -1.8,
+          "true_peak_dbtp": -1.7,
+          "rms_dbfs": -24.2,
+          "lufs": -15.0,
+          "short_term_max_lufs": -19.0,
+          "clipped_samples": 0,
+          "dc": 0.00028,
+          "noise_floor_dbfs": -200.0,
+          "dynamic_range_db": 187.2,
+          "digital_silence_frac": 0.4075,
+          "side_to_mid_db": -6.8,
+          "correlation": 0.658,
+          "attack_at": 0.617,
+          "peak_at": 1.808,
+          "attack_ms": 97.0,
+          "decay_ms": 120.0,
+          "centroid_hz": 3470,
+          "rolloff95_hz": 7772,
+          "bands_db": {
+            "sub": -8.8,
+            "low": -6.8,
+            "lowmid": -20.5,
+            "mid": -8.9,
+            "presence": -2.9,
+            "air": -19.0,
+            "top": -102.1
+          },
+          "bandwidth_hz": 16254,
+          "flatness": 0.0,
+          "brightness_hz": 2722,
+          "tonal_peak_ratio_db": 60.9
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 1.048
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -1.335
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": -0.926
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": 0.221
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 2.422
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 1.121
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.373
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -2.428
+          }
+        },
+        "referenceMatch": true,
+        "description": "a reverse cymbal swell",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\bb0cb7b7088f9057.wav",
+        "originalPath": "D:\\Asset\\SFX\\ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3",
+        "relativePath": "ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3",
+        "sha256": "4ab65321b8800080bc6b4c5d0e4221dc2a9f6e785a1ee28f4d1d4141b010ab56",
+        "duration": 0.96,
+        "activeDuration": 0.96,
+        "peakTime": 0.82,
+        "onset": 0.22,
+        "peakDb": -4.6,
+        "referenceGainDb": -4.0,
+        "family": "riser",
+        "referenceUses": 15,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 0.96,
+          "peak_dbfs": -4.6,
+          "true_peak_dbtp": -4.6,
+          "rms_dbfs": -20.3,
+          "lufs": -23.4,
+          "clipped_samples": 0,
+          "dc": 1e-05,
+          "noise_floor_dbfs": -68.0,
+          "dynamic_range_db": 45.1,
+          "digital_silence_frac": 0.0937,
+          "side_to_mid_db": 9.7,
+          "correlation": -0.832,
+          "attack_at": 0.22,
+          "peak_at": 0.82,
+          "attack_ms": 236.0,
+          "decay_ms": 39.0,
+          "centroid_hz": 151,
+          "rolloff95_hz": 339,
+          "bands_db": {
+            "sub": -3.0,
+            "low": -7.2,
+            "lowmid": -6.0,
+            "mid": -26.2,
+            "presence": -25.0,
+            "air": -32.7,
+            "top": -55.1
+          },
+          "bandwidth_hz": 10240,
+          "flatness": 0.0,
+          "brightness_hz": 422,
+          "tonal_peak_ratio_db": 80.3
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 1.387
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.588
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.2
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": 0.242
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 2.629
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 1.93
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.654
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -1.611
+          }
+        },
+        "referenceMatch": true,
+        "description": "a reverse cymbal swell",
+        "monoCaution": true
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\e7a34024d4ff9c40.wav",
+        "originalPath": "D:\\Asset\\SFX\\perfect click.aac",
+        "relativePath": "perfect click.aac",
+        "sha256": "b7b3a5bae1bd77ade11034fa97e14f791417669c64a176a0f6797b50603b990a",
+        "duration": 0.333,
+        "activeDuration": 0.333,
+        "peakTime": 0.077,
+        "onset": 0.038,
+        "peakDb": -7.0,
+        "referenceGainDb": -8.0,
+        "family": "click",
+        "referenceUses": 14,
+        "sourceIn": 0.03333333333333333,
+        "measurement": {
+          "duration": 0.333,
+          "peak_dbfs": -7.0,
+          "true_peak_dbtp": -6.9,
+          "rms_dbfs": -35.6,
+          "clipped_samples": 0,
+          "dc": 0.0,
+          "noise_floor_dbfs": -141.8,
+          "dynamic_range_db": 115.7,
+          "digital_silence_frac": 0.5044,
+          "side_to_mid_db": null,
+          "correlation": 1.0,
+          "attack_at": 0.038,
+          "peak_at": 0.077,
+          "attack_ms": 4.0,
+          "decay_ms": 44.0,
+          "centroid_hz": 5294,
+          "rolloff95_hz": 11514,
+          "bands_db": {
+            "sub": -43.8,
+            "low": -31.6,
+            "lowmid": -13.4,
+            "mid": -9.6,
+            "presence": -1.2,
+            "air": -10.3,
+            "top": -32.2
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0075,
+          "brightness_hz": 5700,
+          "tonal_peak_ratio_db": 25.2
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -1.017
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 1.013
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 3.541
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.465
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.672
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 2.821
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.096
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 0.216
+          }
+        },
+        "referenceMatch": true,
+        "description": "a kalimba note",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\2dd404fe065775c5.wav",
+        "originalPath": "D:\\Asset\\SFX\\Shine Collect.wav",
+        "relativePath": "Shine Collect.wav",
+        "sha256": "a4194e334762911e9c25b1305d4757a8156938e29ccf6a65639018995feba92c",
+        "duration": 1.0,
+        "activeDuration": 1.0,
+        "peakTime": 0.008,
+        "onset": 0.0,
+        "peakDb": -2.9,
+        "referenceGainDb": -10.0,
+        "family": "notification",
+        "referenceUses": 9,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 1.0,
+          "peak_dbfs": -2.9,
+          "true_peak_dbtp": -2.9,
+          "rms_dbfs": -23.0,
+          "lufs": -19.2,
+          "clipped_samples": 0,
+          "dc": 2e-05,
+          "noise_floor_dbfs": -57.8,
+          "dynamic_range_db": 46.0,
+          "digital_silence_frac": 0.0002,
+          "side_to_mid_db": -19.5,
+          "correlation": 0.978,
+          "attack_at": 0.0,
+          "peak_at": 0.008,
+          "attack_ms": 5.0,
+          "decay_ms": 348.0,
+          "centroid_hz": 1476,
+          "rolloff95_hz": 3145,
+          "bands_db": {
+            "sub": -61.4,
+            "low": -43.0,
+            "lowmid": -31.9,
+            "mid": -0.0,
+            "presence": -36.0,
+            "air": -31.3,
+            "top": -45.6
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0,
+          "brightness_hz": 2101,
+          "tonal_peak_ratio_db": 78.9
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -1.699
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.015
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 1.016
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -1.433
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.78
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.362
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 1.787
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -0.018
+          }
+        },
+        "referenceMatch": true,
+        "description": "a success chime",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\30d8cfb4a85d739a.wav",
+        "originalPath": "D:\\Asset\\SFX\\59050_480663_Vintage_Cameras___33_Konika_Pop___Flash_Charging_Fix_stereo_normal.aac",
+        "relativePath": "59050_480663_Vintage_Cameras___33_Konika_Pop___Flash_Charging_Fix_stereo_normal.aac",
+        "sha256": "55baf9a4047728a826dec8ae1dd59e148968c1a2592eb6e40384e37d395f5634",
+        "duration": 2.48,
+        "activeDuration": 2.48,
+        "peakTime": 0.091,
+        "onset": 0.057,
+        "peakDb": -6.1,
+        "referenceGainDb": -6.0,
+        "family": "riser",
+        "referenceUses": 7,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 2.48,
+          "peak_dbfs": -6.1,
+          "true_peak_dbtp": -6.1,
+          "rms_dbfs": -33.2,
+          "lufs": -26.8,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -45.8,
+          "dynamic_range_db": 24.7,
+          "digital_silence_frac": 0.0064,
+          "side_to_mid_db": -65.4,
+          "correlation": 1.0,
+          "attack_at": 0.057,
+          "peak_at": 0.091,
+          "attack_ms": 30.0,
+          "decay_ms": 1962.0,
+          "centroid_hz": 7517,
+          "rolloff95_hz": 14217,
+          "bands_db": {
+            "sub": -48.6,
+            "low": -25.2,
+            "lowmid": -22.6,
+            "mid": -21.6,
+            "presence": -1.3,
+            "air": -6.9,
+            "top": -15.0
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0066,
+          "brightness_hz": 8771,
+          "tonal_peak_ratio_db": 23.4
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 1.097
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.537
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": -0.009
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.127
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.083
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 2.463
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.484
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -0.342
+          }
+        },
+        "referenceMatch": true,
+        "description": "a camera shutter click",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\0eb618391f1e58f8.wav",
+        "originalPath": "D:\\Asset\\SFX\\Graphics Beeps_Adobestock_1925619735_preview.m4a",
+        "relativePath": "Graphics Beeps_Adobestock_1925619735_preview.m4a",
+        "sha256": "c28b11f43a43a03fd408c370420ef7887401324d181df7ff7ff57ee33a3e5994",
+        "duration": 1.2,
+        "activeDuration": 1.2,
+        "peakTime": 1.085,
+        "onset": 0.193,
+        "peakDb": -9.2,
+        "referenceGainDb": -15.0,
+        "family": "notification",
+        "referenceUses": 5,
+        "sourceIn": 0.6,
+        "measurement": {
+          "duration": 1.2,
+          "peak_dbfs": -9.2,
+          "true_peak_dbtp": -9.1,
+          "rms_dbfs": -20.0,
+          "lufs": -13.2,
+          "clipped_samples": 0,
+          "dc": -0.00012,
+          "noise_floor_dbfs": -73.0,
+          "dynamic_range_db": 56.9,
+          "digital_silence_frac": 0.0008,
+          "side_to_mid_db": null,
+          "correlation": 1.0,
+          "attack_at": 0.193,
+          "peak_at": 1.085,
+          "attack_ms": 72.0,
+          "decay_ms": null,
+          "centroid_hz": 10256,
+          "rolloff95_hz": 11628,
+          "bands_db": {
+            "sub": -43.9,
+            "low": -44.5,
+            "lowmid": -38.9,
+            "mid": -25.6,
+            "presence": -14.3,
+            "air": -0.2,
+            "top": -94.5
+          },
+          "bandwidth_hz": 12901,
+          "flatness": 0.0,
+          "brightness_hz": 9208,
+          "tonal_peak_ratio_db": 75.5
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -1.575
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.109
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.631
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -1.306
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.73
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 3.597
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.979
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 1.012
+          }
+        },
+        "referenceMatch": true,
+        "description": "an error buzz",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\d66faf7c611bc92b.wav",
+        "originalPath": "D:\\Asset\\SFX\\Sharp Riser (1).wav",
+        "relativePath": "Sharp Riser (1).wav",
+        "sha256": "6e4e1a1ea4ad57099e357fd2977af2139b628dd692513f0cf3ce2d0929bde339",
+        "duration": 2.28,
+        "activeDuration": 2.28,
+        "peakTime": 1.744,
+        "onset": 1.479,
+        "peakDb": -3.3,
+        "referenceGainDb": -8.0,
+        "family": "riser",
+        "referenceUses": 5,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 2.28,
+          "peak_dbfs": -3.3,
+          "true_peak_dbtp": -3.2,
+          "rms_dbfs": -28.1,
+          "lufs": -16.5,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -140.0,
+          "dynamic_range_db": 126.0,
+          "digital_silence_frac": 0.152,
+          "side_to_mid_db": -4.9,
+          "correlation": 0.509,
+          "attack_at": 1.479,
+          "peak_at": 1.744,
+          "attack_ms": 252.0,
+          "decay_ms": 75.0,
+          "centroid_hz": 2760,
+          "rolloff95_hz": 5471,
+          "bands_db": {
+            "sub": -11.1,
+            "low": -11.8,
+            "lowmid": -18.6,
+            "mid": -1.2,
+            "presence": -10.7,
+            "air": -56.4,
+            "top": -93.3
+          },
+          "bandwidth_hz": 8127,
+          "flatness": 0.0,
+          "brightness_hz": 2191,
+          "tonal_peak_ratio_db": 108.6
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 1.555
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.528
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.396
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": 0.18
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 2.917
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 1.512
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.325
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -1.951
+          }
+        },
+        "referenceMatch": true,
+        "description": "a reverse cymbal swell",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\f7ecd0d3a384bf91.wav",
+        "originalPath": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_High_12.wav",
+        "relativePath": "SIGNAL\\Beeps\\Beep_High_12.wav",
+        "sha256": "3a2e9997f1f6d2ed8c85666052c70006118032fd87390d9fea3de5ffa694c50f",
+        "duration": 0.36,
+        "activeDuration": 0.36,
+        "peakTime": 0.0,
+        "onset": 0.0,
+        "peakDb": -0.3,
+        "referenceGainDb": -7.0,
+        "family": "notification",
+        "referenceUses": 4,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 0.36,
+          "peak_dbfs": -0.3,
+          "true_peak_dbtp": -0.1,
+          "rms_dbfs": -24.1,
+          "clipped_samples": 0,
+          "dc": 5e-05,
+          "noise_floor_dbfs": -83.4,
+          "dynamic_range_db": 70.6,
+          "digital_silence_frac": 0.385,
+          "side_to_mid_db": -96.6,
+          "correlation": 1.0,
+          "attack_at": 0.0,
+          "peak_at": 0.0,
+          "attack_ms": 0.0,
+          "decay_ms": 17.0,
+          "centroid_hz": 4046,
+          "rolloff95_hz": 11361,
+          "bands_db": {
+            "sub": -33.5,
+            "low": -26.0,
+            "lowmid": -15.8,
+            "mid": -1.9,
+            "presence": -6.4,
+            "air": -10.0,
+            "top": -28.2
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0447,
+          "brightness_hz": 5174,
+          "tonal_peak_ratio_db": 26.3
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.623
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.465
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 2.388
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -1.442
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.726
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 3.213
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.649
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 0.839
+          }
+        },
+        "referenceMatch": true,
+        "description": "bubbles underwater",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\5e149c544c3b9201.wav",
+        "originalPath": "D:\\Asset\\SFX\\64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac",
+        "relativePath": "64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac",
+        "sha256": "db156a4e57cf88cbe91d58ad23b9a046cfb6b7ca29c0c62e515e2579965aa61e",
+        "duration": 2.2,
+        "activeDuration": 2.2,
+        "peakTime": 0.066,
+        "onset": 0.06,
+        "peakDb": -4.3,
+        "referenceGainDb": 0.0,
+        "family": "notification",
+        "referenceUses": 4,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 2.2,
+          "peak_dbfs": -4.3,
+          "true_peak_dbtp": -4.1,
+          "rms_dbfs": -34.0,
+          "lufs": -24.3,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -107.9,
+          "dynamic_range_db": 86.1,
+          "digital_silence_frac": 0.0791,
+          "side_to_mid_db": 0.8,
+          "correlation": -0.097,
+          "attack_at": 0.06,
+          "peak_at": 0.066,
+          "attack_ms": 3.0,
+          "decay_ms": 372.0,
+          "centroid_hz": 8027,
+          "rolloff95_hz": 7799,
+          "bands_db": {
+            "sub": -118.1,
+            "low": -113.0,
+            "lowmid": -106.4,
+            "mid": -34.9,
+            "presence": -0.2,
+            "air": -14.3,
+            "top": -21.6
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0,
+          "brightness_hz": 10084,
+          "tonal_peak_ratio_db": 74.5
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -1.718
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.895
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.996
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.121
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.676
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.539
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 2.015
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -0.095
+          }
+        },
+        "referenceMatch": true,
+        "description": "a triangle hit",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\f667e75e1f5fa2c8.wav",
+        "originalPath": "D:\\Asset\\SFX\\Money Sound Effect 4.mp3",
+        "relativePath": "Money Sound Effect 4.mp3",
+        "sha256": "21e65c299e4a0222ab79ea4b6a7db602b938c9f0a1f73e4c1cb05e2c4044ed45",
+        "duration": 2.8,
+        "activeDuration": 2.8,
+        "peakTime": 0.788,
+        "onset": 0.674,
+        "peakDb": -0.2,
+        "referenceGainDb": -10.0,
+        "family": "notification",
+        "referenceUses": 4,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 2.8,
+          "peak_dbfs": -0.2,
+          "true_peak_dbtp": -0.2,
+          "rms_dbfs": -27.7,
+          "lufs": -16.4,
+          "clipped_samples": 0,
+          "dc": 0.0,
+          "noise_floor_dbfs": -200.0,
+          "dynamic_range_db": 186.8,
+          "digital_silence_frac": 0.481,
+          "side_to_mid_db": -19.6,
+          "correlation": 0.983,
+          "attack_at": 0.674,
+          "peak_at": 0.788,
+          "attack_ms": 104.0,
+          "decay_ms": 680.0,
+          "centroid_hz": 4890,
+          "rolloff95_hz": 11742,
+          "bands_db": {
+            "sub": -43.0,
+            "low": -23.9,
+            "lowmid": -11.8,
+            "mid": -4.2,
+            "presence": -3.6,
+            "air": -9.6,
+            "top": -74.8
+          },
+          "bandwidth_hz": 16254,
+          "flatness": 0.0003,
+          "brightness_hz": 4704,
+          "tonal_peak_ratio_db": 40.2
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.741
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -1.454
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": -1.202
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": 0.072
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 0.07
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 1.98
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": 0.514
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 0.467
+          }
+        },
+        "referenceMatch": true,
+        "description": "a cash register",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\ee82c513858f5281.wav",
+        "originalPath": "D:\\Asset\\SFX\\Old Mechanical Typewriter sound effect.mp3",
+        "relativePath": "Old Mechanical Typewriter sound effect.mp3",
+        "sha256": "1b449ebe4d11ab7365441484aa86d2c90ba5f56882b670b725922b2b8b73daa8",
+        "duration": 0.833,
+        "activeDuration": 0.833,
+        "peakTime": 0.114,
+        "onset": 0.098,
+        "peakDb": -0.1,
+        "referenceGainDb": -18.0,
+        "family": "typing",
+        "referenceUses": 3,
+        "sourceIn": 2.9,
+        "measurement": {
+          "duration": 0.833,
+          "peak_dbfs": -0.1,
+          "true_peak_dbtp": 0.2,
+          "rms_dbfs": -20.6,
+          "lufs": -13.6,
+          "clipped_samples": 0,
+          "dc": -1e-05,
+          "noise_floor_dbfs": -48.5,
+          "dynamic_range_db": 38.7,
+          "digital_silence_frac": 0.0526,
+          "side_to_mid_db": -73.5,
+          "correlation": 1.0,
+          "attack_at": 0.098,
+          "peak_at": 0.114,
+          "attack_ms": 14.0,
+          "decay_ms": 31.0,
+          "centroid_hz": 6423,
+          "rolloff95_hz": 12795,
+          "bands_db": {
+            "sub": -37.3,
+            "low": -23.5,
+            "lowmid": -13.6,
+            "mid": -9.5,
+            "presence": -2.2,
+            "air": -6.5,
+            "top": -23.0
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0012,
+          "brightness_hz": 5833,
+          "tonal_peak_ratio_db": 25.6
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 0.184
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -0.744
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 1.054
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.154
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 0.044
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 1.349
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -1.288
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 2.741
+          }
+        },
+        "referenceMatch": true,
+        "description": "an old typewriter",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\ef13ac8e632b41da.wav",
+        "originalPath": "D:\\Asset\\SFX\\Snap Sound Effect FOR MUSIC PRODUCER.mp3",
+        "relativePath": "Snap Sound Effect FOR MUSIC PRODUCER.mp3",
+        "sha256": "9c8404e164f6fef5a8ec2fbb7292de0ff8168e94a4d6bc51227f53288764fccb",
+        "duration": 1.64,
+        "activeDuration": 1.64,
+        "peakTime": 0.446,
+        "onset": 0.439,
+        "peakDb": -0.9,
+        "referenceGainDb": 0.0,
+        "family": "click",
+        "referenceUses": 2,
+        "sourceIn": 1.64,
+        "measurement": {
+          "duration": 1.64,
+          "peak_dbfs": -0.9,
+          "true_peak_dbtp": -0.8,
+          "rms_dbfs": -30.0,
+          "lufs": -19.0,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -200.0,
+          "dynamic_range_db": 188.5,
+          "digital_silence_frac": 0.2613,
+          "side_to_mid_db": -14.3,
+          "correlation": 0.928,
+          "attack_at": 0.439,
+          "peak_at": 0.446,
+          "attack_ms": 3.0,
+          "decay_ms": 240.0,
+          "centroid_hz": 3510,
+          "rolloff95_hz": 8564,
+          "bands_db": {
+            "sub": -48.2,
+            "low": -38.2,
+            "lowmid": -22.6,
+            "mid": -1.5,
+            "presence": -6.7,
+            "air": -11.6,
+            "top": -70.1
+          },
+          "bandwidth_hz": 16254,
+          "flatness": 0.0001,
+          "brightness_hz": 5167,
+          "tonal_peak_ratio_db": 34.6
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.399
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.2
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 1.398
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -1.15
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 0.464
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.611
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.6
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 0.152
+          }
+        },
+        "referenceMatch": true,
+        "description": "a snare hit",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\c223f0065d7513af.wav",
+        "originalPath": "D:\\Asset\\SFX\\Wind Up Gear Clicks 02 Sound Effect SFX Free for Non Profit Projects.mp3",
+        "relativePath": "Wind Up Gear Clicks 02 Sound Effect SFX Free for Non Profit Projects.mp3",
+        "sha256": "0a1039c84fa54aa9ac2763b9aa07cf0602210ef7497ecf411da865ae53cf9e34",
+        "duration": 1.48,
+        "activeDuration": 1.48,
+        "peakTime": 0.61,
+        "onset": 0.053,
+        "peakDb": -1.3,
+        "referenceGainDb": 0.0,
+        "family": "click",
+        "referenceUses": 2,
+        "sourceIn": 1.64,
+        "measurement": {
+          "duration": 1.48,
+          "peak_dbfs": -1.3,
+          "true_peak_dbtp": -1.2,
+          "rms_dbfs": -26.9,
+          "lufs": -20.1,
+          "clipped_samples": 0,
+          "dc": -0.0001,
+          "noise_floor_dbfs": -54.8,
+          "dynamic_range_db": 36.8,
+          "digital_silence_frac": 0.0153,
+          "side_to_mid_db": -32.6,
+          "correlation": 0.999,
+          "attack_at": 0.053,
+          "peak_at": 0.61,
+          "attack_ms": 200.0,
+          "decay_ms": 22.0,
+          "centroid_hz": 7058,
+          "rolloff95_hz": 13048,
+          "bands_db": {
+            "sub": -41.7,
+            "low": -37.0,
+            "lowmid": -30.8,
+            "mid": -10.0,
+            "presence": -1.9,
+            "air": -6.0,
+            "top": -38.3
+          },
+          "bandwidth_hz": 20480,
+          "flatness": 0.0003,
+          "brightness_hz": 7501,
+          "tonal_peak_ratio_db": 27.0
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.028
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": -1.478
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 1.349
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -1.264
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 0.518
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.571
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.988
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 2.192
+          }
+        },
+        "referenceMatch": true,
+        "description": "a ratchet clicking",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\aaa89a3d32d5956b.wav",
+        "originalPath": "D:\\Asset\\SFX\\Evolution of galaxy low battery  #samsung   #samsunggalaxy   #low   #battery.mp3",
+        "relativePath": "Evolution of galaxy low battery  #samsung   #samsunggalaxy   #low   #battery.mp3",
+        "sha256": "3b081e34d7427d1fd627e90058e705ca6e6cbcc4cce4db4458499166954b27ba",
+        "duration": 1.92,
+        "activeDuration": 1.92,
+        "peakTime": 0.137,
+        "onset": 0.129,
+        "peakDb": -4.7,
+        "referenceGainDb": -8.0,
+        "family": "whoosh",
+        "referenceUses": 1,
+        "sourceIn": 10.08,
+        "measurement": {
+          "duration": 1.92,
+          "peak_dbfs": -4.7,
+          "true_peak_dbtp": -4.7,
+          "rms_dbfs": -26.7,
+          "lufs": -22.5,
+          "clipped_samples": 0,
+          "dc": -0.0,
+          "noise_floor_dbfs": -200.0,
+          "dynamic_range_db": 186.7,
+          "digital_silence_frac": 0.4167,
+          "side_to_mid_db": -18.4,
+          "correlation": 0.974,
+          "attack_at": 0.129,
+          "peak_at": 0.137,
+          "attack_ms": 4.0,
+          "decay_ms": 623.0,
+          "centroid_hz": 514,
+          "rolloff95_hz": 854,
+          "bands_db": {
+            "sub": -38.7,
+            "low": -12.7,
+            "lowmid": -0.3,
+            "mid": -17.2,
+            "presence": -24.1,
+            "air": -42.4,
+            "top": -102.8
+          },
+          "bandwidth_hz": 10240,
+          "flatness": 0.0,
+          "brightness_hz": 656,
+          "tonal_peak_ratio_db": 75.7
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": -0.855
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.591
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": -0.234
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": -0.625
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": -0.651
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 2.964
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.133
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": 0.361
+          }
+        },
+        "referenceMatch": true,
+        "description": "a digital glitch",
+        "monoCaution": false
+      },
+      {
+        "path": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\output\\style-learning\\palette\\96d30f8edf2633cb.wav",
+        "originalPath": "D:\\Asset\\SFX\\Whoosh Sfx Pack\\02-Whoosh Sfx Pack\\15. Whoosh Swoosh.wav",
+        "relativePath": "Whoosh Sfx Pack\\02-Whoosh Sfx Pack\\15. Whoosh Swoosh.wav",
+        "sha256": "74798b7d653760e83649a52ac2b012497ae8b30a36bb9dbca4deec032995fe96",
+        "duration": 1.44,
+        "activeDuration": 1.44,
+        "peakTime": 0.568,
+        "onset": 0.316,
+        "peakDb": -13.3,
+        "referenceGainDb": 0.0,
+        "family": "whoosh",
+        "referenceUses": 1,
+        "sourceIn": 0,
+        "measurement": {
+          "duration": 1.44,
+          "peak_dbfs": -13.3,
+          "true_peak_dbtp": -13.3,
+          "rms_dbfs": -31.5,
+          "lufs": -27.0,
+          "clipped_samples": 0,
+          "dc": -5e-05,
+          "noise_floor_dbfs": -200.0,
+          "dynamic_range_db": 177.9,
+          "digital_silence_frac": 0.1731,
+          "side_to_mid_db": -8.0,
+          "correlation": 0.727,
+          "attack_at": 0.316,
+          "peak_at": 0.568,
+          "attack_ms": 225.0,
+          "decay_ms": 303.0,
+          "centroid_hz": 206,
+          "rolloff95_hz": 720,
+          "bands_db": {
+            "sub": -11.1,
+            "low": -1.1,
+            "lowmid": -9.1,
+            "mid": -16.3,
+            "presence": -28.8,
+            "air": -48.2,
+            "top": -73.0
+          },
+          "bandwidth_hz": 8127,
+          "flatness": 0.0,
+          "brightness_hz": 847,
+          "tonal_peak_ratio_db": 88.9
+        },
+        "queryEvidence": {
+          "whoosh": {
+            "query": "a fast smooth air whoosh sound",
+            "z": 4.489
+          },
+          "pop": {
+            "query": "a short soft rounded pop sound",
+            "z": 0.935
+          },
+          "click": {
+            "query": "a single short dry click sound",
+            "z": 0.997
+          },
+          "impact": {
+            "query": "a short soft low thump sound",
+            "z": 0.587
+          },
+          "riser": {
+            "query": "a rising cinematic swell sound",
+            "z": 2.141
+          },
+          "glitch": {
+            "query": "a short digital electronic glitch sound",
+            "z": 0.7
+          },
+          "notification": {
+            "query": "a short clear notification chime sound",
+            "z": -0.991
+          },
+          "typing": {
+            "query": "a mechanical keyboard typing sound",
+            "z": -1.013
+          }
+        },
+        "referenceMatch": true,
+        "description": "a fast whoosh",
+        "monoCaution": false
+      }
+    ]
+  }
+}

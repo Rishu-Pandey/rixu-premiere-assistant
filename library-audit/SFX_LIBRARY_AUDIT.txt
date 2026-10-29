@@ -1,0 +1,50 @@
+SFX LIBRARY RECURSIVE AUDIT
+D:\Asset\SFX
+
+17 nested folders; 544 total files; 541 media files.
+522 audio files; 19 video files.
+540 files contain an audio stream; 0 probe errors.
+3 exact duplicate groups; 3 redundant copies.
+
+FOLDER COVERAGE (direct files / files including descendants)
+.: 143 / 541
+Asmr: 26 / 26
+Hits: 50 / 50
+overlays: 4 / 9
+overlays\Overlays: 5 / 5
+SIGNAL: 0 / 269
+SIGNAL\Analog_FX: 18 / 18
+SIGNAL\Beeps: 63 / 63
+SIGNAL\Distorted_Signals: 10 / 10
+SIGNAL\Electrical: 13 / 13
+SIGNAL\Glitches: 72 / 72
+SIGNAL\Noise: 24 / 24
+SIGNAL\Pulses: 23 / 23
+SIGNAL\Record: 25 / 25
+SIGNAL\Transmission: 21 / 21
+User Interface: 30 / 30
+Whoosh Sfx Pack: 2 / 14
+Whoosh Sfx Pack\02-Whoosh Sfx Pack: 12 / 12
+
+VIDEO FILES WITHOUT AN AUDIO STREAM
+Money_Rain_1.mov
+
+EXACT DUPLICATES (same SHA-256; originals left unchanged)
+Asmr\yt1z.net - riser sound effect (320 KBps) (1).mp3 = Asmr\yt1z.net - riser sound effect (320 KBps).mp3
+Whoosh Sfx Pack\02-Whoosh Sfx Pack\24. Whoosh Swoosh.wav = Whoosh Sfx Pack\02-Whoosh Sfx Pack\Short Whoosh (1).wav
+Whoosh Sfx Pack\02-Whoosh Sfx Pack\Whoosh and Hit (3).wav = Whoosh Sfx Pack\02-Whoosh Sfx Pack\Whoosh and Hit (3)_1.wav
+
+METADATA ERRORS
+None
+
+LIMITS
+Recursive paths, metadata, SHA-256 duplicates and provisional filename/folder tags. No listening, speech transcription, onset detection or perceptual audio classification.
+
+Tags are search suggestions, not verified descriptions of the sound.
+Video containers with audio can be audio-only placement candidates after import validation.
+Possible multi-sound packs need segment boundaries and audition before automatic use.
+Metadata success does not certify decoding, audio quality or Premiere compatibility.
+No original files were changed and no media was uploaded.
+
+CATALOG
+C:\Users\rishu\Downloads\RIXU_PRMR\library-audit\sfx-library-catalog.json

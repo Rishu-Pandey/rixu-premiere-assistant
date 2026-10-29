@@ -1,0 +1,6 @@
+interface:
+  display_name: "SUPERMODE"
+  short_description: "Layout-aware Premiere captions and library SFX"
+  default_prompt: "Use $supermode to apply my caption and sound-design workflow to the active Premiere sequence."
+policy:
+  allow_implicit_invocation: false

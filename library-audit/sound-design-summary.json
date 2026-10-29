@@ -1,0 +1,1515 @@
+{
+  "recursive_inventory": {
+    "root": "D:\\Asset\\SFX",
+    "scan_time_utc": "2026-10-27T22:26:19.071677+00:00",
+    "nested_folder_count": 17,
+    "total_files": 544,
+    "media_files": 541,
+    "audio_container_files": 522,
+    "video_container_files": 19,
+    "files_with_audio": 540,
+    "video_files_without_audio": [
+      "Money_Rain_1.mov"
+    ],
+    "extensions": {
+      ".mp3": 68,
+      ".aac": 88,
+      ".mp4": 16,
+      ".wav": 362,
+      ".m4a": 4,
+      ".ini": 1,
+      ".mov": 2,
+      ".lnk": 1,
+      ".webm": 1,
+      "": 1
+    },
+    "exact_duplicate_groups": 3,
+    "redundant_exact_duplicate_files": 3,
+    "probe_error_count": 0,
+    "scan_issues": [],
+    "ignored_files": [
+      "desktop.ini",
+      "overlays\\Overlays\\-Overlay 3.lnk",
+      "User Interface\\.DS_Store"
+    ],
+    "analysis_scope": "Recursive paths, metadata, SHA-256 duplicates and provisional filename/folder tags. No listening, speech transcription, onset detection or perceptual audio classification."
+  },
+  "real_sfx": {
+    "input_audio_files": 522,
+    "index_records": 521,
+    "records_with_measurements": 521,
+    "extra_measurement_records": 19,
+    "total_measured_audio_bearing_files": 540,
+    "omitted_by_index_deduplication": [
+      "Whoosh Sfx Pack\\02-Whoosh Sfx Pack\\fast-rocket-whoosh-1714.mp3"
+    ],
+    "roles_are_name_catalog_derived": true,
+    "primary_roles": {
+      "foley": 8,
+      "glass": 4,
+      "misc": 170,
+      "riser": 18,
+      "camera": 9,
+      "glitch": 112,
+      "whoosh": 43,
+      "click": 13,
+      "ui": 96,
+      "hit": 18,
+      "ambience": 12,
+      "paper": 3,
+      "sub_drop": 2,
+      "vehicle": 3,
+      "design": 1,
+      "meme": 5,
+      "scifi": 1,
+      "water": 1,
+      "error": 1,
+      "coin": 1
+    },
+    "trailing_padding_over_one_second_count": 106,
+    "strong_negative_stereo_correlation_count": 7,
+    "mono_risks": [
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Noise\\Noise_Static_02.wav",
+        "lr_correlation": -0.86,
+        "measurement_reference_channel": 0
+      },
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Noise\\Noise_TV_On_01.wav",
+        "lr_correlation": -0.97,
+        "measurement_reference_channel": 0
+      },
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Static_01.wav",
+        "lr_correlation": -0.86,
+        "measurement_reference_channel": 1
+      },
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_03.wav",
+        "lr_correlation": -0.83,
+        "measurement_reference_channel": 1
+      },
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_09.wav",
+        "lr_correlation": -0.82,
+        "measurement_reference_channel": 1
+      },
+      {
+        "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_11.wav",
+        "lr_correlation": -0.85,
+        "measurement_reference_channel": 1
+      },
+      {
+        "path": "D:\\Asset\\SFX\\ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3",
+        "lr_correlation": -0.83,
+        "measurement_reference_channel": 1
+      }
+    ]
+  },
+  "earshot": {
+    "coverage": {
+      "audio_bearing_files": 540,
+      "files_with_evidence": 540,
+      "unique_contents": 537,
+      "analysed_unique_contents": 537,
+      "files_with_semantic_descriptions": 530,
+      "near_silent_excluded_files": [
+        "407856530de6870594c28af7bd1e5e3a.mp4",
+        "lock.mp4",
+        "money explosion effect.mp4",
+        "overlays\\overlay 1.mp4",
+        "overlays\\overlay 2.mp4",
+        "overlays\\overlay 3.mp4",
+        "overlays\\overlay 4.mp4",
+        "overlays\\Overlays\\-Overlay 2.mov",
+        "overlays\\Overlays\\-Overlay 4.mp4",
+        "overlays\\Overlays\\-Overlay 6.webm"
+      ]
+    },
+    "representative_descriptions": 23,
+    "description_errors": [],
+    "shortlists": {
+      "caption_pop": [
+        {
+          "path": "D:\\Asset\\SFX\\98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "relative_path": "98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "measured_duration_seconds": 0.511,
+          "query": "a short soft rounded pop sound",
+          "z": 3.276,
+          "cosine": 0.3686,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a mouth pop",
+            "category": "foley",
+            "z": 2.86,
+            "verdict": "plausible"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\99192_719731_Graphix_-_Pop_02_-_Foley-_Finger_Drum_On_A_Tiny_Vase.aac",
+          "relative_path": "99192_719731_Graphix_-_Pop_02_-_Foley-_Finger_Drum_On_A_Tiny_Vase.aac",
+          "measured_duration_seconds": 0.418,
+          "query": "a short soft rounded pop sound",
+          "z": 3.148,
+          "cosine": 0.2643,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cork pop",
+            "category": "foley",
+            "z": 3.87,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\73231_561545_561544_Swoosh_-_WHSH__Whooshing_Low_01-03_normal.aac",
+          "relative_path": "73231_561545_561544_Swoosh_-_WHSH__Whooshing_Low_01-03_normal.aac",
+          "measured_duration_seconds": 0.405,
+          "query": "a short soft rounded pop sound",
+          "z": 2.271,
+          "cosine": 0.1612,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 4.85,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_Tech_01.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_Tech_01.wav",
+          "measured_duration_seconds": 0.364,
+          "query": "a short soft rounded pop sound",
+          "z": 1.755,
+          "cosine": 0.078,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a snare hit",
+            "category": "impacts",
+            "z": 3.34,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_High_11.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_High_11.wav",
+          "measured_duration_seconds": 0.701,
+          "query": "a short soft rounded pop sound",
+          "z": 1.67,
+          "cosine": 0.1336,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a wooden block hit",
+            "category": "foley",
+            "z": 3.52,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "caption_click": [
+        {
+          "path": "D:\\Asset\\SFX\\perfect click.aac",
+          "relative_path": "perfect click.aac",
+          "measured_duration_seconds": 0.395,
+          "query": "a single short dry click sound",
+          "z": 3.723,
+          "cosine": 0.3312,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a kalimba note",
+            "category": "chimes",
+            "z": 2.77,
+            "verdict": "plausible"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_High_11.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_High_11.wav",
+          "measured_duration_seconds": 0.701,
+          "query": "a single short dry click sound",
+          "z": 3.149,
+          "cosine": 0.3189,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a wooden block hit",
+            "category": "foley",
+            "z": 3.52,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "relative_path": "98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "measured_duration_seconds": 0.511,
+          "query": "a single short dry click sound",
+          "z": 2.927,
+          "cosine": 0.3691,
+          "verdict": "plausible",
+          "top_description": {
+            "description": "a mouth pop",
+            "category": "foley",
+            "z": 2.86,
+            "verdict": "plausible"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\99192_719731_Graphix_-_Pop_02_-_Foley-_Finger_Drum_On_A_Tiny_Vase.aac",
+          "relative_path": "99192_719731_Graphix_-_Pop_02_-_Foley-_Finger_Drum_On_A_Tiny_Vase.aac",
+          "measured_duration_seconds": 0.418,
+          "query": "a single short dry click sound",
+          "z": 2.418,
+          "cosine": 0.2245,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a cork pop",
+            "category": "foley",
+            "z": 3.87,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_Computer_05.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_Computer_05.wav",
+          "measured_duration_seconds": 0.299,
+          "query": "a single short dry click sound",
+          "z": 2.328,
+          "cosine": 0.2231,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a quick swipe",
+            "category": "transitions",
+            "z": 2.46,
+            "verdict": "weak"
+          }
+        }
+      ],
+      "transition_whoosh": [
+        {
+          "path": "D:\\Asset\\SFX\\Whoosh Sfx Pack\\02-Whoosh Sfx Pack\\15. Whoosh Swoosh.wav",
+          "relative_path": "Whoosh Sfx Pack\\02-Whoosh Sfx Pack\\15. Whoosh Swoosh.wav",
+          "measured_duration_seconds": 1.468,
+          "query": "a fast smooth air whoosh sound",
+          "z": 4.485,
+          "cosine": 0.4042,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 4.7,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\834939_834889_Short_Airy_Woosh_03_-_SFO-23-000516_-_MASTERED_-_2496.aac",
+          "relative_path": "834939_834889_Short_Airy_Woosh_03_-_SFO-23-000516_-_MASTERED_-_2496.aac",
+          "measured_duration_seconds": 1.231,
+          "query": "a fast smooth air whoosh sound",
+          "z": 4.263,
+          "cosine": 0.3564,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 5.22,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\834932_834890_Short_Airy_Woosh_04_-_SFO-23-000516_-_MASTERED_-_2496.aac",
+          "relative_path": "834932_834890_Short_Airy_Woosh_04_-_SFO-23-000516_-_MASTERED_-_2496.aac",
+          "measured_duration_seconds": 1.231,
+          "query": "a fast smooth air whoosh sound",
+          "z": 4.176,
+          "cosine": 0.3367,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 5.25,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Transmission\\Transmission_16.wav",
+          "relative_path": "SIGNAL\\Transmission\\Transmission_16.wav",
+          "measured_duration_seconds": 2.261,
+          "query": "a fast smooth air whoosh sound",
+          "z": 4.067,
+          "cosine": 0.3095,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 3.87,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\73231_561545_561544_Swoosh_-_WHSH__Whooshing_Low_01-03_normal.aac",
+          "relative_path": "73231_561545_561544_Swoosh_-_WHSH__Whooshing_Low_01-03_normal.aac",
+          "measured_duration_seconds": 0.405,
+          "query": "a fast smooth air whoosh sound",
+          "z": 3.942,
+          "cosine": 0.3256,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a fast whoosh",
+            "category": "transitions",
+            "z": 4.85,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "soft_impact": [
+        {
+          "path": "D:\\Asset\\SFX\\98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "relative_path": "98859_718517_Graphical_Essence__-_Buttons-_Press-_Deep.aac",
+          "measured_duration_seconds": 0.511,
+          "query": "a short soft low thump sound",
+          "z": 1.328,
+          "cosine": 0.1386,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a mouth pop",
+            "category": "foley",
+            "z": 2.86,
+            "verdict": "plausible"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Hits\\One Hits-025.wav",
+          "relative_path": "Hits\\One Hits-025.wav",
+          "measured_duration_seconds": 1.375,
+          "query": "a short soft low thump sound",
+          "z": 1.11,
+          "cosine": 0.0531,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a punchy impact hit",
+            "category": "impacts",
+            "z": 3.69,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Hits\\One Hits-034.wav",
+          "relative_path": "Hits\\One Hits-034.wav",
+          "measured_duration_seconds": 1.0,
+          "query": "a short soft low thump sound",
+          "z": 1.109,
+          "cosine": 0.0724,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a kick drum",
+            "category": "impacts",
+            "z": 3.45,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Hits\\One Hits-026.wav",
+          "relative_path": "Hits\\One Hits-026.wav",
+          "measured_duration_seconds": 1.0,
+          "query": "a short soft low thump sound",
+          "z": 1.054,
+          "cosine": 0.0659,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a kick drum",
+            "category": "impacts",
+            "z": 3.29,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Hits\\One Hits-048.wav",
+          "relative_path": "Hits\\One Hits-048.wav",
+          "measured_duration_seconds": 1.75,
+          "query": "a short soft low thump sound",
+          "z": 1.003,
+          "cosine": 0.0763,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a kick drum",
+            "category": "impacts",
+            "z": 3.38,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "heavy_impact": [
+        {
+          "path": "D:\\Asset\\SFX\\99707_722488_SCIFIGAME_Weapon-_Explosion_A-_Metallic-_Plasma_.aac",
+          "relative_path": "99707_722488_SCIFIGAME_Weapon-_Explosion_A-_Metallic-_Plasma_.aac",
+          "measured_duration_seconds": 5.155,
+          "query": "a deep heavy cinematic impact sound",
+          "z": 4.168,
+          "cosine": 0.3126,
+          "verdict": "strong",
+          "top_description": {
+            "description": "an explosion",
+            "category": "impacts",
+            "z": 4.14,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\doubleImpact.aac",
+          "relative_path": "doubleImpact.aac",
+          "measured_duration_seconds": 3.776,
+          "query": "a deep heavy cinematic impact sound",
+          "z": 4.054,
+          "cosine": 0.4563,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a deep cinematic boom",
+            "category": "impacts",
+            "z": 4.04,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Hits\\One Hits-030.wav",
+          "relative_path": "Hits\\One Hits-030.wav",
+          "measured_duration_seconds": 2.25,
+          "query": "a deep heavy cinematic impact sound",
+          "z": 3.971,
+          "cosine": 0.3591,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cinematic hit with a long tail",
+            "category": "impacts",
+            "z": 3.46,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\ES_Impact, Dark, Cinematic, Snappy Hit - Epidemic Sound.mp3",
+          "relative_path": "ES_Impact, Dark, Cinematic, Snappy Hit - Epidemic Sound.mp3",
+          "measured_duration_seconds": 5.875,
+          "query": "a deep heavy cinematic impact sound",
+          "z": 3.85,
+          "cosine": 0.4822,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a deep cinematic boom",
+            "category": "impacts",
+            "z": 3.57,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\787664_787485_Distorted_Hits_-_End_Impact_-_MASTERED_-_2496.aac",
+          "relative_path": "787664_787485_Distorted_Hits_-_End_Impact_-_MASTERED_-_2496.aac",
+          "measured_duration_seconds": 3.088,
+          "query": "a deep heavy cinematic impact sound",
+          "z": 3.832,
+          "cosine": 0.3913,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cinematic hit with a long tail",
+            "category": "impacts",
+            "z": 3.52,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "notification": [
+        {
+          "path": "D:\\Asset\\SFX\\64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac",
+          "relative_path": "64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac",
+          "measured_duration_seconds": 2.24,
+          "query": "a short clear notification chime sound",
+          "z": 2.034,
+          "cosine": 0.2369,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a triangle hit",
+            "category": "chimes",
+            "z": 4.16,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Shine Collect.wav",
+          "relative_path": "Shine Collect.wav",
+          "measured_duration_seconds": 1.009,
+          "query": "a short clear notification chime sound",
+          "z": 1.786,
+          "cosine": 0.1271,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a success chime",
+            "category": "ui",
+            "z": 4.22,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_High_02.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_High_02.wav",
+          "measured_duration_seconds": 2.636,
+          "query": "a short clear notification chime sound",
+          "z": 1.753,
+          "cosine": 0.136,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a magic sparkle chime",
+            "category": "chimes",
+            "z": 3.12,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Glitches\\Glitch_High_10.wav",
+          "relative_path": "SIGNAL\\Glitches\\Glitch_High_10.wav",
+          "measured_duration_seconds": 1.411,
+          "query": "a short clear notification chime sound",
+          "z": 1.685,
+          "cosine": 0.079,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a magic sparkle chime",
+            "category": "chimes",
+            "z": 3.9,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Noise\\Noise_Static_High_Frequency_03.wav",
+          "relative_path": "SIGNAL\\Noise\\Noise_Static_High_Frequency_03.wav",
+          "measured_duration_seconds": 1.091,
+          "query": "a short clear notification chime sound",
+          "z": 1.644,
+          "cosine": 0.1421,
+          "verdict": "no match",
+          "top_description": {
+            "description": "an error buzz",
+            "category": "ui",
+            "z": 2.65,
+            "verdict": "plausible"
+          }
+        }
+      ],
+      "glitch": [
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Glitches\\Glitch_High_07.wav",
+          "relative_path": "SIGNAL\\Glitches\\Glitch_High_07.wav",
+          "measured_duration_seconds": 0.4,
+          "query": "a short digital electronic glitch sound",
+          "z": 4.835,
+          "cosine": 0.4134,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a digital glitch",
+            "category": "ui",
+            "z": 4.19,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Glitches\\Glitch_Small_11.wav",
+          "relative_path": "SIGNAL\\Glitches\\Glitch_Small_11.wav",
+          "measured_duration_seconds": 0.901,
+          "query": "a short digital electronic glitch sound",
+          "z": 4.585,
+          "cosine": 0.3622,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a digital glitch",
+            "category": "ui",
+            "z": 3.51,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Beeps\\Beep_Computer_01.wav",
+          "relative_path": "SIGNAL\\Beeps\\Beep_Computer_01.wav",
+          "measured_duration_seconds": 0.462,
+          "query": "a short digital electronic glitch sound",
+          "z": 4.474,
+          "cosine": 0.3232,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a digital glitch",
+            "category": "ui",
+            "z": 4.2,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\User Interface\\Stutter 1.wav",
+          "relative_path": "User Interface\\Stutter 1.wav",
+          "measured_duration_seconds": 2.229,
+          "query": "a short digital electronic glitch sound",
+          "z": 4.472,
+          "cosine": 0.2866,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a digital glitch",
+            "category": "ui",
+            "z": 3.38,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Glitches\\Glitch_High_05.wav",
+          "relative_path": "SIGNAL\\Glitches\\Glitch_High_05.wav",
+          "measured_duration_seconds": 1.88,
+          "query": "a short digital electronic glitch sound",
+          "z": 4.416,
+          "cosine": 0.2917,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a digital glitch",
+            "category": "ui",
+            "z": 3.59,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "riser": [
+        {
+          "path": "D:\\Asset\\SFX\\Futuristic Riser.mp3",
+          "relative_path": "Futuristic Riser.mp3",
+          "measured_duration_seconds": 9.979,
+          "query": "a rising cinematic swell sound",
+          "z": 4.283,
+          "cosine": 0.4408,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a downlifter falling sweep",
+            "category": "transitions",
+            "z": 4.44,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Whoosh Sfx Pack\\95226_698276_Heavy_Hitters_-_Rise_and_Steve_.aac",
+          "relative_path": "Whoosh Sfx Pack\\95226_698276_Heavy_Hitters_-_Rise_and_Steve_.aac",
+          "measured_duration_seconds": 9.149,
+          "query": "a rising cinematic swell sound",
+          "z": 3.697,
+          "cosine": 0.3861,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cinematic hit with a long tail",
+            "category": "impacts",
+            "z": 4.64,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\52882_438720_438719_Cinematic_Transitions_and_Hits_-_approach_2_normal.aac",
+          "relative_path": "52882_438720_438719_Cinematic_Transitions_and_Hits_-_approach_2_normal.aac",
+          "measured_duration_seconds": 10.496,
+          "query": "a rising cinematic swell sound",
+          "z": 3.663,
+          "cosine": 0.4246,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cinematic hit with a long tail",
+            "category": "impacts",
+            "z": 3.82,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\740503_740474_Slow_times_-_Sharp_Tonal_Whoosh.aac",
+          "relative_path": "740503_740474_Slow_times_-_Sharp_Tonal_Whoosh.aac",
+          "measured_duration_seconds": 7.361,
+          "query": "a rising cinematic swell sound",
+          "z": 3.585,
+          "cosine": 0.2906,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a cinematic hit with a long tail",
+            "category": "impacts",
+            "z": 4.56,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\887570_887516_KM_Cinematic_Drone_Loop__-_SFE-22-000405__-_MASTERED_-_2496.aac",
+          "relative_path": "887570_887516_KM_Cinematic_Drone_Loop__-_SFE-22-000405__-_MASTERED_-_2496.aac",
+          "measured_duration_seconds": 12.237,
+          "query": "a rising cinematic swell sound",
+          "z": 3.35,
+          "cosine": 0.4073,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a downlifter falling sweep",
+            "category": "transitions",
+            "z": 3.86,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "typing": [
+        {
+          "path": "D:\\Asset\\SFX\\Asmr\\67743_533636_533635_Typing_-_Desktop_Computer_Plastic_Keyboard_Deep_Keys_Typing_Slower_and_Faster-01_normal.aac",
+          "relative_path": "Asmr\\67743_533636_533635_Typing_-_Desktop_Computer_Plastic_Keyboard_Deep_Keys_Typing_Slower_and_Faster-01_normal.aac",
+          "measured_duration_seconds": 20.011,
+          "query": "a mechanical keyboard typing sound",
+          "z": 4.183,
+          "cosine": 0.3692,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a laptop keyboard typing",
+            "category": "keyboard",
+            "z": 4.32,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Old Mechanical Typewriter sound effect.mp3",
+          "relative_path": "Old Mechanical Typewriter sound effect.mp3",
+          "measured_duration_seconds": 7.083,
+          "query": "a mechanical keyboard typing sound",
+          "z": 3.123,
+          "cosine": 0.2421,
+          "verdict": "strong",
+          "top_description": {
+            "description": "an old typewriter",
+            "category": "keyboard",
+            "z": 5.0,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Rapid Camera Shutter _ HQ Sound Effect 0.mp3",
+          "relative_path": "Rapid Camera Shutter _ HQ Sound Effect 0.mp3",
+          "measured_duration_seconds": 26.958,
+          "query": "a mechanical keyboard typing sound",
+          "z": 2.904,
+          "cosine": 0.3201,
+          "verdict": "plausible",
+          "top_description": {
+            "description": "an old typewriter",
+            "category": "keyboard",
+            "z": 4.01,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Analog_FX\\Vintage_Click_03.wav",
+          "relative_path": "SIGNAL\\Analog_FX\\Vintage_Click_03.wav",
+          "measured_duration_seconds": 11.674,
+          "query": "a mechanical keyboard typing sound",
+          "z": 2.606,
+          "cosine": 0.199,
+          "verdict": "plausible",
+          "top_description": {
+            "description": "an old typewriter",
+            "category": "keyboard",
+            "z": 4.52,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\CLICK_SFX.mp4",
+          "relative_path": "CLICK_SFX.mp4",
+          "measured_duration_seconds": 9.749,
+          "query": "a mechanical keyboard typing sound",
+          "z": 2.281,
+          "cosine": 0.3102,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a ratchet clicking",
+            "category": "foley",
+            "z": 3.37,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "paper": [
+        {
+          "path": "D:\\Asset\\SFX\\67079_529934_529933_Paper_Collection_-_Encyclopedia_Glossy_Pages_Sweep_normal.aac",
+          "relative_path": "67079_529934_529933_Paper_Collection_-_Encyclopedia_Glossy_Pages_Sweep_normal.aac",
+          "measured_duration_seconds": 2.155,
+          "query": "a paper page turning and rustling sound",
+          "z": 3.253,
+          "cosine": 0.3103,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a rubber stretch",
+            "category": "foley",
+            "z": 3.41,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Satisfying Sounds of Pages Being Flipped in a Book _  #Shorts.mp3",
+          "relative_path": "Satisfying Sounds of Pages Being Flipped in a Book _  #Shorts.mp3",
+          "measured_duration_seconds": 8.406,
+          "query": "a paper page turning and rustling sound",
+          "z": 2.496,
+          "cosine": 0.1982,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a record scratch",
+            "category": "transitions",
+            "z": 3.66,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Asmr\\yt1z.net - Glasses sound effect (no copyright) (320 KBps).mp3",
+          "relative_path": "Asmr\\yt1z.net - Glasses sound effect (no copyright) (320 KBps).mp3",
+          "measured_duration_seconds": 4.667,
+          "query": "a paper page turning and rustling sound",
+          "z": 1.964,
+          "cosine": 0.1537,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a can opening",
+            "category": "foley",
+            "z": 3.94,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\Design Element_Adobestock_1925571325_preview.m4a",
+          "relative_path": "Design Element_Adobestock_1925571325_preview.m4a",
+          "measured_duration_seconds": 0.619,
+          "query": "a paper page turning and rustling sound",
+          "z": 1.935,
+          "cosine": 0.1784,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a record scratch",
+            "category": "transitions",
+            "z": 4.1,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_06.wav",
+          "relative_path": "SIGNAL\\Record\\Record_Warp_06.wav",
+          "measured_duration_seconds": 1.441,
+          "query": "a paper page turning and rustling sound",
+          "z": 1.549,
+          "cosine": 0.0241,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a record scratch",
+            "category": "transitions",
+            "z": 4.88,
+            "verdict": "strong"
+          }
+        }
+      ],
+      "room_tone": [
+        {
+          "path": "D:\\Asset\\SFX\\Asmr\\70942_549739_549738_Ambience_Pack01_-_RoomTone_BathRoom-01_ambience.aac",
+          "relative_path": "Asmr\\70942_549739_549738_Ambience_Pack01_-_RoomTone_BathRoom-01_ambience.aac",
+          "measured_duration_seconds": 128.128,
+          "query": "a steady quiet indoor room tone sound",
+          "z": 4.338,
+          "cosine": 0.3586,
+          "verdict": "strong",
+          "top_description": {
+            "description": "a computer fan hum",
+            "category": "ambience",
+            "z": 3.64,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\70078_545050_545047_18_Room_Tones_AMBIENCE_ROOM_Studio_Noise_Silent-01_normal.aac",
+          "relative_path": "70078_545050_545047_18_Room_Tones_AMBIENCE_ROOM_Studio_Noise_Silent-01_normal.aac",
+          "measured_duration_seconds": 360.043,
+          "query": "a steady quiet indoor room tone sound",
+          "z": 2.894,
+          "cosine": 0.2837,
+          "verdict": "plausible",
+          "top_description": {
+            "description": "a computer fan hum",
+            "category": "ambience",
+            "z": 3.07,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Transmission\\Transmission_21.wav",
+          "relative_path": "SIGNAL\\Transmission\\Transmission_21.wav",
+          "measured_duration_seconds": 12.992,
+          "query": "a steady quiet indoor room tone sound",
+          "z": 2.402,
+          "cosine": 0.1796,
+          "verdict": "weak",
+          "top_description": {
+            "description": "an electrical hum",
+            "category": "ambience",
+            "z": 2.58,
+            "verdict": "plausible"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Transmission\\Transmission_17.wav",
+          "relative_path": "SIGNAL\\Transmission\\Transmission_17.wav",
+          "measured_duration_seconds": 7.552,
+          "query": "a steady quiet indoor room tone sound",
+          "z": 2.361,
+          "cosine": 0.1332,
+          "verdict": "weak",
+          "top_description": {
+            "description": "a deep cinematic whoosh",
+            "category": "transitions",
+            "z": 3.24,
+            "verdict": "strong"
+          }
+        },
+        {
+          "path": "D:\\Asset\\SFX\\SIGNAL\\Pulses\\Pulses_Deep_05.wav",
+          "relative_path": "SIGNAL\\Pulses\\Pulses_Deep_05.wav",
+          "measured_duration_seconds": 14.774,
+          "query": "a steady quiet indoor room tone sound",
+          "z": 1.857,
+          "cosine": 0.0939,
+          "verdict": "no match",
+          "top_description": {
+            "description": "a deep cinematic whoosh",
+            "category": "transitions",
+            "z": 2.5,
+            "verdict": "plausible"
+          }
+        }
+      ]
+    }
+  },
+  "project_sound_design_review": "Not performed: no specific edit/video/mix has been supplied.",
+  "earshot_mono_checks": [
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Noise\\Noise_Static_02.wav",
+      "measurements": {
+        "duration": 3.523,
+        "peak_dbfs": -0.3,
+        "true_peak_dbtp": 0.6,
+        "rms_dbfs": -29.5,
+        "lufs": -19.6,
+        "short_term_max_lufs": -23.0,
+        "clipped_samples": 0,
+        "dc": -1e-05,
+        "noise_floor_dbfs": -67.2,
+        "dynamic_range_db": 40.7,
+        "digital_silence_frac": 0.0078,
+        "side_to_mid_db": 11.1,
+        "correlation": -0.858,
+        "attack_at": 0.028,
+        "peak_at": 0.107,
+        "attack_ms": 74.0,
+        "decay_ms": 976.0,
+        "centroid_hz": 8017,
+        "rolloff95_hz": 18694,
+        "bands_db": {
+          "sub": -18.7,
+          "low": -13.1,
+          "lowmid": -15.5,
+          "mid": -7.1,
+          "presence": -5.6,
+          "air": -4.8,
+          "top": -9.6
+        },
+        "bandwidth_hz": 20480,
+        "flatness": 0.1639,
+        "brightness_hz": 8665,
+        "tonal_peak_ratio_db": 23.7
+      },
+      "mono_sum_rms_change_db": -11.4
+    },
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Noise\\Noise_TV_On_01.wav",
+      "measurements": {
+        "duration": 4.783,
+        "peak_dbfs": -2.9,
+        "true_peak_dbtp": -2.9,
+        "rms_dbfs": -12.1,
+        "lufs": -7.7,
+        "short_term_max_lufs": -7.4,
+        "clipped_samples": 0,
+        "dc": 0.00111,
+        "noise_floor_dbfs": -55.6,
+        "dynamic_range_db": 45.0,
+        "digital_silence_frac": 0.0048,
+        "side_to_mid_db": 17.9,
+        "correlation": -0.968,
+        "attack_at": 0.468,
+        "peak_at": 0.663,
+        "attack_ms": 193.0,
+        "decay_ms": 129.0,
+        "centroid_hz": 1282,
+        "rolloff95_hz": 4281,
+        "bands_db": {
+          "sub": -21.3,
+          "low": -10.7,
+          "lowmid": -2.4,
+          "mid": -5.7,
+          "presence": -12.6,
+          "air": -22.3,
+          "top": -32.5
+        },
+        "bandwidth_hz": 20480,
+        "flatness": 0.013,
+        "brightness_hz": 2738,
+        "tonal_peak_ratio_db": 47.2
+      },
+      "mono_sum_rms_change_db": -17.94
+    },
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Static_01.wav",
+      "measurements": {
+        "duration": 9.385,
+        "peak_dbfs": 0.0,
+        "true_peak_dbtp": 0.1,
+        "rms_dbfs": -16.1,
+        "lufs": -26.4,
+        "short_term_max_lufs": -23.0,
+        "lra_lu": 6.5,
+        "clipped_samples": 98,
+        "dc": -7e-05,
+        "noise_floor_dbfs": -45.7,
+        "dynamic_range_db": 32.8,
+        "digital_silence_frac": 0.0201,
+        "side_to_mid_db": 11.0,
+        "correlation": -0.863,
+        "attack_at": 0.067,
+        "peak_at": 2.329,
+        "attack_ms": 232.0,
+        "decay_ms": 626.0,
+        "centroid_hz": 340,
+        "rolloff95_hz": 2463,
+        "bands_db": {
+          "sub": -9.9,
+          "low": -17.2,
+          "lowmid": -16.7,
+          "mid": -13.4,
+          "presence": -16.2,
+          "air": -21.2,
+          "top": -41.3
+        },
+        "bandwidth_hz": 20480,
+        "flatness": 0.0038,
+        "brightness_hz": 3685,
+        "tonal_peak_ratio_db": 53.2
+      },
+      "mono_sum_rms_change_db": -11.37
+    },
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_03.wav",
+      "measurements": {
+        "duration": 4.702,
+        "peak_dbfs": -0.2,
+        "true_peak_dbtp": -0.2,
+        "rms_dbfs": -11.7,
+        "lufs": -20.1,
+        "short_term_max_lufs": -19.7,
+        "clipped_samples": 0,
+        "dc": 0.00018,
+        "noise_floor_dbfs": -42.7,
+        "dynamic_range_db": 32.8,
+        "digital_silence_frac": 0.0008,
+        "side_to_mid_db": 10.0,
+        "correlation": -0.825,
+        "attack_at": 0.024,
+        "peak_at": 2.148,
+        "attack_ms": 166.0,
+        "decay_ms": 1789.0,
+        "centroid_hz": 124,
+        "rolloff95_hz": 734,
+        "bands_db": {
+          "sub": -6.4,
+          "low": -10.6,
+          "lowmid": -9.6,
+          "mid": -16.4,
+          "presence": -32.4,
+          "air": -36.1,
+          "top": -61.8
+        },
+        "bandwidth_hz": 10240,
+        "flatness": 0.0001,
+        "brightness_hz": 692,
+        "tonal_peak_ratio_db": 74.6
+      },
+      "mono_sum_rms_change_db": -10.4
+    },
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_09.wav",
+      "measurements": {
+        "duration": 1.573,
+        "peak_dbfs": -2.6,
+        "true_peak_dbtp": -2.6,
+        "rms_dbfs": -10.7,
+        "lufs": -15.9,
+        "clipped_samples": 0,
+        "dc": 0.00109,
+        "noise_floor_dbfs": -27.8,
+        "dynamic_range_db": 14.2,
+        "digital_silence_frac": 0.0329,
+        "side_to_mid_db": 10.0,
+        "correlation": -0.822,
+        "attack_at": 0.007,
+        "peak_at": 1.252,
+        "attack_ms": 103.0,
+        "decay_ms": 263.0,
+        "centroid_hz": 216,
+        "rolloff95_hz": 1055,
+        "bands_db": {
+          "sub": -7.1,
+          "low": -5.6,
+          "lowmid": -8.4,
+          "mid": -12.9,
+          "presence": -28.8,
+          "air": -44.0,
+          "top": -70.7
+        },
+        "bandwidth_hz": 10240,
+        "flatness": 0.0,
+        "brightness_hz": 1166,
+        "tonal_peak_ratio_db": 83.1
+      },
+      "mono_sum_rms_change_db": -10.43
+    },
+    {
+      "path": "D:\\Asset\\SFX\\SIGNAL\\Record\\Record_Warp_11.wav",
+      "measurements": {
+        "duration": 1.7,
+        "peak_dbfs": -2.6,
+        "true_peak_dbtp": -2.0,
+        "rms_dbfs": -8.2,
+        "lufs": -16.7,
+        "clipped_samples": 0,
+        "dc": 0.00095,
+        "noise_floor_dbfs": -26.3,
+        "dynamic_range_db": 17.7,
+        "digital_silence_frac": 0.0199,
+        "side_to_mid_db": 10.8,
+        "correlation": -0.854,
+        "attack_at": 0.014,
+        "peak_at": 1.114,
+        "attack_ms": 106.0,
+        "decay_ms": 550.0,
+        "centroid_hz": 210,
+        "rolloff95_hz": 692,
+        "bands_db": {
+          "sub": -9.2,
+          "low": -10.9,
+          "lowmid": -6.6,
+          "mid": -14.7,
+          "presence": -27.8,
+          "air": -32.4,
+          "top": -48.3
+        },
+        "bandwidth_hz": 16254,
+        "flatness": 0.0007,
+        "brightness_hz": 641,
+        "tonal_peak_ratio_db": 67.6
+      },
+      "mono_sum_rms_change_db": -11.16
+    },
+    {
+      "path": "D:\\Asset\\SFX\\ES_Bass, Sharp Detail Riser - Epidemic Sound.mp3",
+      "measurements": {
+        "duration": 0.973,
+        "peak_dbfs": -4.6,
+        "true_peak_dbtp": -4.6,
+        "rms_dbfs": -20.3,
+        "lufs": -23.4,
+        "clipped_samples": 0,
+        "dc": 1e-05,
+        "noise_floor_dbfs": -68.0,
+        "dynamic_range_db": 45.1,
+        "digital_silence_frac": 0.1057,
+        "side_to_mid_db": 9.7,
+        "correlation": -0.832,
+        "attack_at": 0.22,
+        "peak_at": 0.82,
+        "attack_ms": 236.0,
+        "decay_ms": 39.0,
+        "centroid_hz": 153,
+        "rolloff95_hz": 339,
+        "bands_db": {
+          "sub": -3.0,
+          "low": -7.2,
+          "lowmid": -6.1,
+          "mid": -25.9,
+          "presence": -24.5,
+          "air": -32.0,
+          "top": -53.9
+        },
+        "bandwidth_hz": 12901,
+        "flatness": 0.0,
+        "brightness_hz": 422,
+        "tonal_peak_ratio_db": 78.9
+      },
+      "mono_sum_rms_change_db": -10.16
+    }
+  ],
+  "container_vs_decoded_duration_differences_over_250ms": [
+    {
+      "path": "D:\\Asset\\SFX\\27245_337661_337661_TOURIST_CROWD_Plaza_5-10_Tourist_Groups_People_Unload_Trucks_English_Chinese_Spanish_ambience.aac",
+      "container_reported_seconds": 99.353828,
+      "decoded_seconds": 114.048
+    },
+    {
+      "path": "D:\\Asset\\SFX\\29380_338997_338997_Explosion_Debris_Distant_Gravel_Light_normal.aac",
+      "container_reported_seconds": 8.246076,
+      "decoded_seconds": 10.304
+    },
+    {
+      "path": "D:\\Asset\\SFX\\29874_339504_339504_WHOOSH_Soft_Fast_Swirling_normal.aac",
+      "container_reported_seconds": 2.15771,
+      "decoded_seconds": 2.581
+    },
+    {
+      "path": "D:\\Asset\\SFX\\34792_341934_341934_WHOOSH_Long_Flame_Burst_Rise_normal.aac",
+      "container_reported_seconds": 6.231044,
+      "decoded_seconds": 8.256
+    },
+    {
+      "path": "D:\\Asset\\SFX\\41705_367839_Writing_-_Hard_Pencil-_Writing-_Slow_stereo_normal.aac",
+      "container_reported_seconds": 38.751293,
+      "decoded_seconds": 23.339
+    },
+    {
+      "path": "D:\\Asset\\SFX\\52882_438720_438719_Cinematic_Transitions_and_Hits_-_approach_2_normal.aac",
+      "container_reported_seconds": 13.99308,
+      "decoded_seconds": 10.496
+    },
+    {
+      "path": "D:\\Asset\\SFX\\60642_489966_489965_075_-_Neon_Light_1_-_Flickering_-0-28-_-_075_-_Neon_Light_Flickering_-_Turning_On-_Electric_Buzz_normal.aac",
+      "container_reported_seconds": 30.527912,
+      "decoded_seconds": 28.096
+    },
+    {
+      "path": "D:\\Asset\\SFX\\64950_518423_518422_Explainer_Video_-_Bell_Light_Hit_Ding_2_normal.aac",
+      "container_reported_seconds": 1.488068,
+      "decoded_seconds": 2.24
+    },
+    {
+      "path": "D:\\Asset\\SFX\\67079_529934_529933_Paper_Collection_-_Encyclopedia_Glossy_Pages_Sweep_normal.aac",
+      "container_reported_seconds": 1.859643,
+      "decoded_seconds": 2.155
+    },
+    {
+      "path": "D:\\Asset\\SFX\\674830_Motion-Graphics_Typography-Loop-04---MASTERED_normal.aac",
+      "container_reported_seconds": 5.658388,
+      "decoded_seconds": 6.08
+    },
+    {
+      "path": "D:\\Asset\\SFX\\70078_545050_545047_18_Room_Tones_AMBIENCE_ROOM_Studio_Noise_Silent-01_normal.aac",
+      "container_reported_seconds": 362.40961,
+      "decoded_seconds": 360.043
+    },
+    {
+      "path": "D:\\Asset\\SFX\\71007_549905_549904_Extreme_Climate_-_Earthquake_trembling_objects-01_normal.aac",
+      "container_reported_seconds": 28.354059,
+      "decoded_seconds": 30.421
+    },
+    {
+      "path": "D:\\Asset\\SFX\\736625_736578_Trailer_Force_-_DSGNBram_Trailer_Braam_Rapture_Synth_Aggressive_Blast_Tonal_Riser_Glitch.aac",
+      "container_reported_seconds": 5.752893,
+      "decoded_seconds": 7.314
+    },
+    {
+      "path": "D:\\Asset\\SFX\\736710_736661_Trailer_Force_-_DSGNRise_Trailer_Transitions_Suckback_Reverse_Rising_Brake_Swell_3_Flutter_Whoosh_Riser.aac",
+      "container_reported_seconds": 5.739147,
+      "decoded_seconds": 5.155
+    },
+    {
+      "path": "D:\\Asset\\SFX\\740503_740474_Slow_times_-_Sharp_Tonal_Whoosh.aac",
+      "container_reported_seconds": 9.655799,
+      "decoded_seconds": 7.361
+    },
+    {
+      "path": "D:\\Asset\\SFX\\752112_752057_Blasted_-_Synthesized_Explosion_01.aac",
+      "container_reported_seconds": 1.972576,
+      "decoded_seconds": 2.252
+    },
+    {
+      "path": "D:\\Asset\\SFX\\755537_755490_Airplane_Fly_By_01.aac",
+      "container_reported_seconds": 36.803853,
+      "decoded_seconds": 27.376
+    },
+    {
+      "path": "D:\\Asset\\SFX\\78620_595256_595255_Anime_Mania_-_Magic-_Positive-_Healing-_Transformation-_Teleportation_normal.aac",
+      "container_reported_seconds": 3.907844,
+      "decoded_seconds": 5.227
+    },
+    {
+      "path": "D:\\Asset\\SFX\\787664_787485_Distorted_Hits_-_End_Impact_-_MASTERED_-_2496.aac",
+      "container_reported_seconds": 2.63118,
+      "decoded_seconds": 3.088
+    },
+    {
+      "path": "D:\\Asset\\SFX\\805406_805324_Whoosh_Pitched_Low-30_-_MASTERED_-_2496.aac",
+      "container_reported_seconds": 4.870606,
+      "decoded_seconds": 5.457
+    },
+    {
+      "path": "D:\\Asset\\SFX\\81209_611054_611053_Whoosh_Transition-Gain_141_normal.aac",
+      "container_reported_seconds": 2.119572,
+      "decoded_seconds": 3.435
+    },
+    {
+      "path": "D:\\Asset\\SFX\\82219_618294_Enfield_L86_LSW_5.56mm_Light_Machine_Gun_-_Firing_-_Single_Shot_-_1m-01_stereo_normal.aac",
+      "container_reported_seconds": 1.325671,
+      "decoded_seconds": 2.069
+    },
+    {
+      "path": "D:\\Asset\\SFX\\83460_626077_626076_Ni_Sound_Big_Screen_Logo_Steampunk_05_-_MASTERED_normal.aac",
+      "container_reported_seconds": 4.321528,
+      "decoded_seconds": 4.907
+    },
+    {
+      "path": "D:\\Asset\\SFX\\866431_866383_Analogue_UI_20_-_SFE-22-000447__-_MASTERED_-_2496.aac",
+      "container_reported_seconds": 3.078593,
+      "decoded_seconds": 3.808
+    },
+    {
+      "path": "D:\\Asset\\SFX\\86677_646627_646625_IMP_Big_Reverb_Tube_-_MASTERED_normal.aac",
+      "container_reported_seconds": 4.718082,
+      "decoded_seconds": 5.909
+    },
+    {
+      "path": "D:\\Asset\\SFX\\887570_887516_KM_Cinematic_Drone_Loop__-_SFE-22-000405__-_MASTERED_-_2496.aac",
+      "container_reported_seconds": 17.604924,
+      "decoded_seconds": 12.237
+    },
+    {
+      "path": "D:\\Asset\\SFX\\897007_897004_Big_Whoosh.aac",
+      "container_reported_seconds": 2.259204,
+      "decoded_seconds": 4.574
+    },
+    {
+      "path": "D:\\Asset\\SFX\\96583_705466_Impact-Sound_Design-Hit-Airy-Resonant_Hit-Subsonic-Airy_Accent-Thin-Dry-Solemn-Spacious.aac",
+      "container_reported_seconds": 4.340482,
+      "decoded_seconds": 9.033
+    },
+    {
+      "path": "D:\\Asset\\SFX\\96865_706929_Whoosh-Sound_Design-Rip-Buffet.aac",
+      "container_reported_seconds": 6.048716,
+      "decoded_seconds": 4.435
+    },
+    {
+      "path": "D:\\Asset\\SFX\\99342_720936_Seismic_-_Earthquake_-_Distant_eerie_metal_scrape.aac",
+      "container_reported_seconds": 63.475114,
+      "decoded_seconds": 27.585
+    },
+    {
+      "path": "D:\\Asset\\SFX\\99707_722488_SCIFIGAME_Weapon-_Explosion_A-_Metallic-_Plasma_.aac",
+      "container_reported_seconds": 4.745061,
+      "decoded_seconds": 5.155
+    },
+    {
+      "path": "D:\\Asset\\SFX\\99945_723370_Hyperspace_-_UFO_17.aac",
+      "container_reported_seconds": 12.246559,
+      "decoded_seconds": 7.43
+    },
+    {
+      "path": "D:\\Asset\\SFX\\AiryWOOSH.aac",
+      "container_reported_seconds": 1.869094,
+      "decoded_seconds": 3.367
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\36320_342687_342687_FOLEY_Steps_Barefoot_Wet_Tile_Walking_Neumann_D01_stereo_normal.aac",
+      "container_reported_seconds": 17.06978,
+      "decoded_seconds": 15.68
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\45332_388595_388594_Cosmetic-_Container-_Using-_Coloring-_Putting_on__normal.aac",
+      "container_reported_seconds": 5.511875,
+      "decoded_seconds": 6.101
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\45349_388629_388628_Lotion_Cream-_Opening-_Putting-_Hands_Rubbing-_Closing_.10_normal.aac",
+      "container_reported_seconds": 17.473099,
+      "decoded_seconds": 18.987
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\46443_393663_Footsteps_-_Shoes-_Wood-_Hollow_Floor-_MasterdalSpeed-Mastered_36-01_stereo_normal.aac",
+      "container_reported_seconds": 27.858175,
+      "decoded_seconds": 26.645
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\62548_648492_648492__Anthony_Lazaro_-_Kisses_and_Heartbeats_-_Instrumental_Version_-_Master_-_71_Bpm_-_090322_-_EXT_-_2444.aac",
+      "container_reported_seconds": 128.82907,
+      "decoded_seconds": 140.945
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\67743_533636_533635_Typing_-_Desktop_Computer_Plastic_Keyboard_Deep_Keys_Typing_Slower_and_Faster-01_normal.aac",
+      "container_reported_seconds": 24.915075,
+      "decoded_seconds": 20.011
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\68072_535598_535597_Home_Gym_-_Exercise_Mat-_Opening-_Unpacking_normal.aac",
+      "container_reported_seconds": 19.105304,
+      "decoded_seconds": 20.523
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\70942_549739_549738_Ambience_Pack01_-_RoomTone_BathRoom-01_ambience.aac",
+      "container_reported_seconds": 118.274348,
+      "decoded_seconds": 128.128
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\723033_01_-_Yehezkel_Raz_-_Preludes_,_(Book_1_-_Strems)_-_Ballerina_(Ballet_Best)_-_Master_#05_(16-44.1).aac",
+      "container_reported_seconds": 68.447568,
+      "decoded_seconds": 71.61
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\72410_558016_558015_The_Office_-_Door_Office-_Open_Close-01_normal.aac",
+      "container_reported_seconds": 2.585859,
+      "decoded_seconds": 3.072
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\79056_598270_598269_Medication_-_Pills_Bottle_Open_Close_Screw-01_normal.aac",
+      "container_reported_seconds": 4.231784,
+      "decoded_seconds": 4.651
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Asmr\\86827_647400_647399_Making_Love_-_Foley-_Putting_Head_onto_Pillow_-_MASTERED_normal.aac",
+      "container_reported_seconds": 8.150087,
+      "decoded_seconds": 10.88
+    },
+    {
+      "path": "D:\\Asset\\SFX\\deepsImpactDRUMS.aac",
+      "container_reported_seconds": 7.780711,
+      "decoded_seconds": 9.451
+    },
+    {
+      "path": "D:\\Asset\\SFX\\doubleImpact.aac",
+      "container_reported_seconds": 2.81735,
+      "decoded_seconds": 3.776
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Epic_Movie_Trailer_-_Hit_Bass_Pulse_Tension_Cinematic_1.aac",
+      "container_reported_seconds": 2.834012,
+      "decoded_seconds": 6.85
+    },
+    {
+      "path": "D:\\Asset\\SFX\\revrseriserImpac.aac",
+      "container_reported_seconds": 20.078975,
+      "decoded_seconds": 5.739
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Stanislav_Barantsov_-_Knives_Out_-_AO-002157-2_-_Master_-_120_Bpm_-_200524_-_BOV_-_ORG_-_2444.aac",
+      "container_reported_seconds": 143.969414,
+      "decoded_seconds": 125.248
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Whoosh Sfx Pack\\734791_734758_Hyperspace_-_UFO_37.aac",
+      "container_reported_seconds": 6.070064,
+      "decoded_seconds": 5.48
+    },
+    {
+      "path": "D:\\Asset\\SFX\\Whoosh Sfx Pack\\95226_698276_Heavy_Hitters_-_Rise_and_Steve_.aac",
+      "container_reported_seconds": 8.58125,
+      "decoded_seconds": 9.149
+    },
+    {
+      "path": "D:\\Asset\\SFX\\wooshstutring.aac",
+      "container_reported_seconds": 2.671163,
+      "decoded_seconds": 3.39
+    }
+  ]
+}

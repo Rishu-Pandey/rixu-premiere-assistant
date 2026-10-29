@@ -1,0 +1,104 @@
+{
+ "python": "3.11.9",
+ "earshot_home": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\.tools\\earshot-cache",
+ "threads": 3,
+ "precision": "bf16",
+ "clap_model": "laion/larger_clap_general",
+ "ast_model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+ "packages": {
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "soundfile": "0.14.0",
+  "soxr": "1.1.0",
+  "librosa": "0.11.0",
+  "pyloudnorm": "0.2.0",
+  "sklearn": "1.9.1",
+  "PIL": "11.3.0",
+  "matplotlib": "3.11.2",
+  "torch": "2.14.0",
+  "transformers": "5.21.0",
+  "mcp": "MISSING (ImportError)",
+  "requests": "2.34.2"
+ },
+ "ffmpeg": "C:\\Users\\rishu\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+ "ffprobe": "C:\\Users\\rishu\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffprobe.EXE",
+ "torch_cuda_used": false,
+ "offline": null,
+ "fetched": {
+  "laion/larger_clap_general": "already cached",
+  "MIT/ast-finetuned-audioset-10-10-0.4593": "downloaded f826b80"
+ },
+ "models": {
+  "laion/larger_clap_general": {
+   "revision": "16c8cc3159a3c8a31e8ff5ef1f66b0d9ab3667db",
+   "cached": "cached",
+   "loads": "16c8cc3159a3c8a31e8ff5ef1f66b0d9ab3667db",
+   "weights": "model.safetensors",
+   "snapshot": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\.tools\\earshot-cache\\hf\\models--laion--larger_clap_general\\snapshots\\16c8cc3159a3c8a31e8ff5ef1f66b0d9ab3667db",
+   "missing": []
+  },
+  "MIT/ast-finetuned-audioset-10-10-0.4593": {
+   "revision": "f826b80d28226b62986cc218e5cec390b1096902",
+   "cached": "cached",
+   "loads": "f826b80d28226b62986cc218e5cec390b1096902",
+   "weights": "model.safetensors",
+   "snapshot": "C:\\Users\\rishu\\Downloads\\RIXU_PRMR\\.tools\\earshot-cache\\hf\\models--MIT--ast-finetuned-audioset-10-10-0.4593\\snapshots\\f826b80d28226b62986cc218e5cec390b1096902",
+   "missing": []
+  }
+ },
+ "models_cached": {
+  "laion/larger_clap_general": true,
+  "MIT/ast-finetuned-audioset-10-10-0.4593": true
+ },
+ "llm_keys_present": {
+  "GEMINI_API_KEY": false,
+  "GOOGLE_API_KEY": false
+ },
+ "data_files": {
+  "vocab.json": true,
+  "vocab_stats.json": true,
+  "realness_model.json": true,
+  "launch_profile.json": true
+ },
+ "bank": {
+  "version": "forge_v2r6+forge04r1+fit1+pluck1",
+  "sounds": 252,
+  "types": {
+   "forge": 237,
+   "fit": 15
+  },
+  "pluck": 3,
+  "files": [
+   {
+    "file": "forge_v2.json",
+    "entries": 183
+   },
+   {
+    "file": "forge04.json",
+    "entries": 51
+   },
+   {
+    "file": "fit.json",
+    "entries": 15
+   },
+   {
+    "file": "pluck.json",
+    "entries": 3
+   }
+  ],
+  "extra": []
+ },
+ "clap_load_s": 21.9,
+ "clap_one_window_s": 0.67,
+ "clap_precision": "fp32",
+ "clap_revision": "16c8cc3159a3c8a31e8ff5ef1f66b0d9ab3667db",
+ "clap_weights": "model.safetensors",
+ "ast_load_s": 0.8,
+ "ast_one_window_s": 1.93,
+ "ast_revision": "f826b80d28226b62986cc218e5cec390b1096902",
+ "ast_weights": "model.safetensors",
+ "native_bf16": false,
+ "problems": [],
+ "notes": [],
+ "summary": "Sound bank forge_v2r6+forge04r1+fit1+pluck1: 252 sounds (234 forge, 3 plucks, 15 fitted from CC0 recordings). earshot looks healthy."
+}

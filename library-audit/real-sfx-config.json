@@ -1,0 +1,9 @@
+{
+  "libraries": [
+    {"name": "rixu-sfx", "path": "D:/Asset/SFX", "tier": "main", "enabled": true}
+  ],
+  "uisfx": {"path": "C:/Users/rishu/Downloads/RIXU_PRMR/library-audit/unused-ui-pack", "enabled": false, "default_pack": "studio"},
+  "skip_dir_names": [],
+  "index_path": "C:/Users/rishu/Downloads/RIXU_PRMR/library-audit/real-sfx-index.json",
+  "ui_mode": "library"
+}

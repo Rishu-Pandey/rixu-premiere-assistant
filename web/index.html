@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SUPERMODE</title><link rel="stylesheet" href="/web/style.css?token=__RIXU_TOKEN__"></head>
+<body><main>
+<header><div><span class="eyebrow">RIXU ASSISTANT</span><h1>SUPERMODE<span class="dot"></span></h1></div><span id="connection" class="badge">Connecting</span></header>
+<p class="intro">Your captions. Your sound design.<br>Choose an SRT. The tool handles the timeline.</p>
+<label class="file-box" for="srtFile"><span class="file-icon">SRT</span><strong id="fileName">Choose your SRT</strong><span id="fileHint">English or Hinglish · wording stays as supplied</span><input id="srtFile" type="file" accept=".srt"></label>
+<button id="run" class="primary" disabled>Analyse &amp; apply</button>
+<p class="hint">Detects cuts and full/split layouts. Places editable captions on the two topmost tracks, highlights key words in your style, and adds library SFX. Captions appear instantly. Changes go to a sequence copy.</p>
+<section id="progress" hidden aria-live="polite"><div class="section-label">WORKING ON YOUR SEQUENCE</div><div id="steps" class="steps"><span data-stage="inspect">XML</span><span data-stage="render">Preview</span><span data-stage="layout">Layouts</span><span data-stage="plan">Captions + SFX</span><span data-stage="apply">Place</span></div><p id="status"></p><button id="retry" hidden>Retry saved analysis</button></section>
+<section id="result" hidden><div class="section-label">READY IN PREMIERE</div><h2 id="resultName"></h2><p id="resultCounts"></p><p id="resultNotes" class="hint"></p></section>
+<p id="notice" role="status" aria-live="polite"></p>
+<details id="planner"><summary>Planner connection <span id="plannerName"></span></summary><div class="settings"><p class="hint">Uses your installed CLI and saved sign-in. Sampled video frames, caption text and editing metadata go to the selected planner; audio analysis stays local.</p><label>Planner<select id="provider"><option value="codex">Codex CLI</option><option value="claude">Claude CLI</option></select></label><div class="buttons"><button id="savePlanner">Save connection</button><button id="testPlanner">Test</button></div><p id="plannerStatus" class="hint"></p></div></details>
+<footer>Style learned from your past edits · SFX from D:\Asset\SFX and subfolders</footer>
+</main><script>window.RIXU_TOKEN='__RIXU_TOKEN__';</script><script src="/web/app.js?token=__RIXU_TOKEN__"></script></body></html>

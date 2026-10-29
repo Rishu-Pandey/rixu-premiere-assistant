@@ -1,0 +1,30 @@
+{
+  "referenceRenders": 6,
+  "projectFilesScanned": 51,
+  "normalFont": "EuropaGroteskSH-Med",
+  "highlightFont": "TimesNewRomanPS-BoldItalicMT",
+  "highlightWordFractionByReference": [
+    0.35106382978723405,
+    0.4406779661016949,
+    0.5,
+    0.686046511627907,
+    0.5483870967741935,
+    0.5363128491620112
+  ],
+  "sfxPerMinuteByReference": [
+    39.43044906900328,
+    26.81564245810056,
+    28.481012658227847,
+    20.526315789473685,
+    32.33830845771144,
+    30.259806418746816
+  ],
+  "sfxMedianPerMinute": 29.37040953848733,
+  "regularGlyphHeightRatio": 0.035,
+  "highlightGlyphHeightRatio": 0.054,
+  "fullCaptionCenter": 0.672,
+  "sourceGainMedianDb": -8.0,
+  "paletteTrims": 16,
+  "missingPreferredAssets": [],
+  "note": "Caption frequency comes from project caption blocks; sampled renders independently confirm typography. Render samples were balanced by role, so are not used to estimate frequency. Earshot mixed-audio attacks include speech and music; SFX density comes from used project clips after excluding music."
+}

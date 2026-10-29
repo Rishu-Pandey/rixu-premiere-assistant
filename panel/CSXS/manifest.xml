@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.rixu.premiere" ExtensionBundleVersion="0.4.3" ExtensionBundleName="RIXU Assistant">
+  <ExtensionList><Extension Id="com.rixu.premiere.panel" Version="0.4.3"/><Extension Id="com.rixu.premiere.launcher" Version="0.4.3"/></ExtensionList>
+  <ExecutionEnvironment><HostList><Host Name="PPRO" Version="[14.0,99.9]"/></HostList><LocaleList><Locale Code="All"/></LocaleList><RequiredRuntimeList><RequiredRuntime Name="CSXS" Version="10.0"/></RequiredRuntimeList></ExecutionEnvironment>
+  <DispatchInfoList><Extension Id="com.rixu.premiere.panel"><DispatchInfo>
+    <Resources><MainPath>./index.html</MainPath><CEFCommandLine><Parameter>--allow-file-access-from-files</Parameter></CEFCommandLine></Resources>
+    <Lifecycle><AutoVisible>true</AutoVisible></Lifecycle>
+    <UI><Type>Panel</Type><Menu>RIXU Assistant — SUPERMODE</Menu><Geometry><Size><Width>480</Width><Height>760</Height></Size><MinSize><Width>340</Width><Height>400</Height></MinSize></Geometry></UI>
+  </DispatchInfo></Extension>
+  <Extension Id="com.rixu.premiere.launcher"><DispatchInfo>
+    <Resources><MainPath>./startup.html</MainPath><CEFCommandLine><Parameter>--allow-file-access-from-files</Parameter></CEFCommandLine></Resources>
+    <Lifecycle><AutoVisible>false</AutoVisible><StartOn><Event>com.adobe.csxs.events.ApplicationActivate</Event></StartOn></Lifecycle>
+    <UI><Type>Custom</Type><Geometry><Size><Width>1</Width><Height>1</Height></Size></Geometry></UI>
+  </DispatchInfo></Extension></DispatchInfoList>
+</ExtensionManifest>

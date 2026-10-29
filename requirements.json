@@ -1,0 +1,52 @@
+{
+  "product": "RIXU Captions + SFX Assistant",
+  "status": "development_build_0.4.3_three_second_high_cadence",
+  "premiere": {
+    "first_test_version": "26.2.0",
+    "platform": "windows",
+    "cross_version_support": "required_for_a_tested_range",
+    "universal_compatibility_verified": false
+  },
+  "captions": {
+    "outputs": ["editable_native_text_normal_and_highlight_tracks"],
+    "dialogue": ["english", "hinglish"],
+    "english_source": "supplied_srt_may_come_from_premiere_native_transcription",
+    "preferred_english_input": "premiere_exported_srt",
+    "hinglish_source": "supplied_srt_required",
+    "full_screen_position": "lower_third",
+    "split_screen_position": "center_directly_on_divider",
+    "layout_boundaries": "cli_detected_and_refined_frame_boundaries",
+    "split_cues_at_layout_changes": true,
+    "emphasis": "contextual_caption_ids_and_word_indices_with_reasons_no_quota",
+    "animation": "none",
+    "preserve_code_switching": true,
+    "initial_presets": ["fixed_learned_typography_with_semantic_emphasis"]
+  },
+  "sfx": {
+    "library_root": "D:\\Asset\\SFX",
+    "recursive": true,
+    "default_mode": "automatic_from_user_instructions",
+    "placement_review": "automatic_on_sequence_copy_with_saved_checkpoints",
+    "story_roles": ["hook", "build", "payoff", "support", "quiet_reset"],
+    "high_cadence_seconds": 3,
+    "maximum_high_gap_seconds": 3.6,
+    "target_clips_per_minute": 55,
+    "sound_only_revisions_preserve_captions": true,
+    "level_review": "cached_base_rms_and_peak_headroom_preserving_voice_music",
+    "sources": "connected_library_only",
+    "preserve_original_files": true,
+    "handle_video_audio_streams": true,
+    "handle_multi_sound_source_segments": "future_segment_search",
+    "unmatched_cue_behavior": "leave_unfilled_and_report",
+    "analysis_skills": ["real-sfx", "earshot"],
+    "semantic_audio_matching": "required_with_recorded_evidence",
+    "analysis_execution": "local_cached_persistent_worker",
+    "placement_output": "editable_individual_clips",
+    "external_ui_packs": false,
+    "generated_sounds": false
+  },
+  "provisional_defaults": [
+    "Hinglish wording and script come from supplied SRT",
+    "Initial caption presets are design defaults, not user-selected visual references"
+  ]
+}

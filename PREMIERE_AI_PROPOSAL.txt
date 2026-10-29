@@ -1,0 +1,438 @@
+RIXU PREMIERE ASSISTANT - RESEARCH AND BUILD PROPOSAL
+Prepared: 28 October 2026
+Status: Historical research/proposal. Superseded by the development build documented in README.md and VALIDATION.md.
+
+SCOPE UPDATE: Your main work is captions and SFX from your own library.
+CAPTIONS_SFX_PROPOSAL.txt now contains the current product proposal. This file
+remains the broader Premiere research reference; its general timeline-command
+first-release priorities have been superseded by the focused proposal.
+
+YOUR REQUIREMENT
+
+Type custom editing instructions and have a tool carry them out on a Premiere
+timeline. You want to use it across different Premiere versions.
+
+Local observation: the installed executable reports Premiere Pro 26.2.0 at
+C:\Program Files\Adobe\Adobe Premiere Pro 2026\Adobe Premiere Pro.exe.
+The workspace contained no existing project files when inspected.
+
+RECOMMENDATION
+
+Build a panel called RIXU Premiere Assistant, backed by a shared instruction
+engine and version-specific connectors. Start on your installed 26.2 release;
+then validate a legacy connector on older releases. The same instruction engine
+and saved editing recipes should be reusable across connectors.
+
+This document maps major native tool families and editing techniques. It is not
+a claim to have tested every Premiere command, effect, third-party plugin, or
+release. Native feature availability and programmatic access are different.
+Everything in the product scope below is proposed until implemented and tested.
+
+1. PREMIERE TOOLS AND TECHNIQUES: WHAT THE ASSISTANT NEEDS TO UNDERSTAND
+
+01. Tools panel
+Selection, Track Selection, Ripple Edit, Razor, Slip, Pen, Shape, Hand, Text,
+and Generative Extend; related trimming includes Rolling Edit, Slide and Rate
+Stretch. These are editing concepts to translate into API operations, rather
+than instructions to imitate mouse gestures. Availability varies by release.
+Sources: [1], [2], [3].
+
+02. Project setup and organization
+Projects, bins, naming, labels, metadata, markers, importing assets, searching,
+offline media, relinking and archiving. Useful commands include organizing
+selected assets and naming an assembly sequence. Distinguish source items from
+their multiple timeline instances. Source: [4].
+
+03. Ingest and proxies
+Copying/transcoding media, creating and attaching proxies, toggling playback
+media and reconnecting originals. Preserve the relationship to original media
+when collecting context or preparing delivery. Source: [5].
+
+04. Assembly and timeline structure
+Source In/Out ranges, insert versus overwrite, track targeting/source patching,
+linked audio/video, grouping, nesting and sequence settings. An instruction must
+specify whether later material moves and which tracks participate. Sources: [2], [4].
+
+05. Precision trimming
+Ripple trims alter duration and move downstream content. Rolling edits shift
+the cut between neighboring clips. Slip changes the source window without
+moving the clip; slide repositions a clip while adjusting neighbors. These
+operations have different source-handle and timeline constraints. Source: [2].
+
+06. Split edits and dialogue continuity
+J cuts introduce the next shot's audio before its picture. L cuts continue
+the previous shot's audio under the next picture. Preserve intentional audio
+overlaps rather than treating them as gaps or sync errors. Source: [6].
+
+07. Timing and retiming
+Speed/Duration, Rate Stretch, Time Remapping, freeze frames and interpolation.
+Retimed footage needs source-to-sequence time mapping; an ordinary trim is not
+equivalent to changing playback speed. Complex ramps come after basic edits.
+Source: [3].
+
+08. Multicamera editing
+Synchronize source recordings using timecode, audio or markers, create source
+and target sequences, then select camera angles. Inspect multicam context before
+editing nested material or independently moving linked recordings. Source: [7].
+
+09. Transcript editing
+Speech to Text and Text-Based Editing support dialogue search and text-led
+assembly. Newer releases also document Paper Edit. Editing by meaning needs
+word timestamps, speaker context and review of the chosen material. Sources: [8], [9].
+
+10. Captions and subtitles
+Create captions, correct words, set line breaks/timing, apply styles and import
+or export caption files. Translation and caption formats depend on the host.
+Subtitle tracks and animated graphic captions are different output types.
+Source: [10].
+
+11. Titles and motion graphics
+Text, shapes, reusable MOGRT templates, template properties and responsive
+graphics. Prefer a known template with exposed controls for consistent titles.
+Fonts and external template dependencies must be checked. Source: [11].
+
+12. Motion and keyframes
+Position, scale, rotation, opacity and time-varying effect parameters; keyframe
+interpolation controls movement. A command such as 'slow zoom' needs explicit
+start/end values and a duration, resolved against the selected clip. Source: [12].
+
+13. Effects and presets
+Fixed and applied effects, Effect Controls, reusable presets, adjustment layers
+and source effects. Applying an effect to a source can affect many timeline
+instances. Use a tested effect catalog instead of assuming every preset can be
+applied programmatically. Source: [13].
+
+14. Transitions
+Dissolves, fades and other transitions require sufficient source handles and
+appropriate placement. A transition duration should be expressed in frames and
+checked against neighboring footage. Morph Cut is a separate analysis-based
+workflow, not interchangeable with a dissolve. Sources: [4], [13].
+
+15. Masks and composites
+Opacity, blend modes, keying and tracked masks support compositing. Current
+documentation also describes object masking as a beta feature. Do not assume
+that beta workflows exist on your installed version or expose plugin APIs.
+Sources: [14], [15].
+
+16. Stabilization and reframing
+Warp Stabilizer and Auto Reframe involve footage analysis. Treat these as
+analysis jobs with completion checks, not instantaneous parameter changes.
+Automatic reframing also needs visual review of the subject. Source: [4].
+
+17. Color correction and grading
+Lumetri workflows include exposure, white balance, contrast, curves, color
+wheels, secondary adjustments, LUTs, scopes and shot matching. A preset can be
+repeatable; matching a visual reference requires image analysis and judgment.
+Source: [16].
+
+18. Color management
+Source color spaces, sequence working/output spaces, HDR and tone mapping
+change how footage is interpreted. An assistant should inspect these before
+suggesting color values or a delivery conversion. Source: [17].
+
+19. Dialogue and audio finishing
+Essential Sound includes dialogue processing, loudness matching, repair and
+music ducking. Distinguish clip gain, volume automation, track processing and
+measured output loudness. 'Lower by 6 dB' differs from 'set to -6 dB.' Source: [18].
+
+20. Music and sound design
+Audio fades, crossfades, EQ, dynamics, panning, submixes and Remix serve different
+purposes. Rhythm editing can use beat locations, while duration matching may use
+Remix. Listening remains part of acceptance. Source: [4].
+
+21. AI search and generation
+Media intelligence can help find footage. Generative Extend and newer generative
+media tools create or extend media. Account access, release and supported media
+must be checked; native availability does not establish third-party API access.
+Sources: [9], [19], [20].
+
+22. Collaboration and connected applications
+Team Projects, Productions, review comments and Adobe app integration introduce
+ownership, shared-media and project-state considerations. Start with a local
+single-editor project before enabling shared-project mutation. Source: [21].
+
+23. Rendering, export and interchange
+Sequence ranges, presets, codecs, audio channels, Media Encoder and interchange
+formats affect delivery. Export is a queued operation with output validation.
+XML/EDL are interchange routes with limitations, not complete project replicas.
+Source: [22].
+
+24. Editorial technique
+Editors build selects, stringouts, rough cuts and fine cuts; control pacing;
+maintain continuity; use reaction shots, cutaways, B-roll, match cuts and sound
+bridges. These are editorial decisions, not single Premiere buttons. The proposed
+assistant should translate a specific brief into inspectable choices, while
+leaving subjective choices visible for review.
+
+2. EXISTING ADOBE AI: WHERE A CUSTOM TOOL ADDS VALUE
+
+Adobe documents a Premiere AI Assistant in beta that accepts natural-language
+requests for project organization, media preparation and initial assemblies.
+Text-Based Editing and media intelligence already cover useful editing/search
+tasks. Sources: [8], [19], [23].
+
+Our proposed focus is your own reusable instructions, explicit clip targeting,
+timecode-based plans, and a tested capability list across selected versions.
+This is a product direction, not a claim that the custom tool already outperforms
+Adobe's assistant. The beta assistant has not been checked in your installation.
+
+3. WHAT YOU WOULD SEE
+
+A panel with these elements:
+- Current project, sequence, Premiere build and connector status.
+- An instruction box, plus saved editing recipes.
+- Scope: selected clips, specified tracks, marked range or whole sequence.
+- Analyze: resolves the instruction against the current timeline.
+- A proposed change list with affected clips, source/timeline ranges and effects.
+- Apply, operation history and a clear recovery route.
+
+Example instruction:
+'On the selected video and its linked audio, trim two seconds from the end.
+Leave later clips in place. Make a copy of the sequence first.'
+
+The plan would show the selected clip identity, linked audio instances, new
+endpoints and the resulting gap. If multiple selections make the meaning unclear,
+the panel asks a short contextual question before changing the timeline.
+
+Another example:
+'Add a 12-frame dissolve between these two selected shots.'
+The tool checks that the clips share a cut, the transition exists and source
+handles are sufficient. It reports a concrete limitation if they do not.
+
+4. HOW AN INSTRUCTION BECOMES AN EDIT
+
+Instruction -> timeline snapshot -> structured plan -> capability and timing
+checks -> preview -> execute supported actions -> read back and verify.
+
+The model interprets intent. Ordinary code performs the edits through a defined
+action catalog. The model does not send arbitrary generated scripts to Premiere.
+
+Each action records:
+- Project and sequence identity, snapshot revision and exact clip instances.
+- Scope, tracks, linked-item policy and ripple policy.
+- Operation type, explicit parameters and source/sequence time units.
+- Preconditions, expected result and available recovery method.
+
+The executor checks for changes since analysis. If the user has edited the
+timeline, stale plans are rebuilt rather than applied to changed targets.
+Times use integer frames or host ticks with the sequence timebase. Source time,
+sequence time, display timecode and speed-adjusted time are kept distinct.
+
+5. MULTI-VERSION DESIGN
+
+One instruction engine does not mean one plugin package works everywhere.
+
+Modern connector:
+Use Adobe UXP for supported releases from 25.6 onward. Adobe's documentation
+marks minimum versions per API member; methods introduced later cannot be
+assumed on 25.6 or on your installed 26.2. Sources: [24], [25], [26].
+
+Legacy connector:
+Evaluate a separate CEP/ExtendScript panel for selected older releases. Adobe
+still publishes CEP resources. This is a candidate route, not verified support
+for every historical Premiere version. Sources: [24], [27].
+
+Proposed validation targets:
+- First: your installed Windows Premiere 26.2.0.
+- Modern baseline: 25.6.x, subject to a test installation being available.
+- Legacy candidates: a 24.x build and a pre-25.6 25.x build.
+- Earlier versions: evaluate individually after the legacy proof succeeds.
+
+At connection time, probe the build and required methods. Display capabilities
+as Tested, Available but untested, or Unavailable. Only actions passing the
+release's validation gate are executable. Plans and recipes remain portable;
+unsupported steps receive a specific explanation or a documented alternative.
+
+File interchange may offer a limited fallback for basic assemblies. It cannot
+guarantee preservation of effects, graphics, color, audio routing or all metadata.
+Plugin compatibility also does not make newer .prproj files open in older hosts.
+
+6. TECHNICAL SHAPE
+
+Suggested implementation:
+- Shared TypeScript command schema, planner validation and timing utilities.
+- A local companion process for AI-provider requests and optional media analysis.
+- A UXP panel/connector for modern Premiere.
+- A separate CEP/ExtendScript connector for selected legacy releases.
+- A per-version registry of tested actions and known limitations.
+
+The AI provider should be replaceable. The model is configured during setup;
+provider charges and optional local-model hardware needs depend on that choice.
+Send only the context needed for an instruction. Media analysis that requires
+uploading footage should be an explicit workflow choice.
+
+Keep effect adapters separate from the general executor. Resolve stable effect
+identifiers and validated parameter mappings, rather than relying on English
+display names or fixed parameter indexes across every release.
+
+7. WHAT THE OFFICIAL API DOCUMENTATION ESTABLISHES
+
+Documented building blocks, not live-tested functionality:
+- Sequence: selection, tracks, timing/settings and a clone action. [28]
+- SequenceEditor: insert, overwrite, clone track items, remove with ripple
+  options, and insert MOGRTs. [29]
+- Video/audio clip items: timing, source ranges, move and enable/disable actions;
+  video items also expose video-transition actions. [30], [31]
+- ComponentParam: value changes and keyframe operations. [32]
+- Project: undoable transactions. [33]
+- Transcript: JSON exchange and transcription-related methods, with some
+  helpers introduced only in 26.3. [34]
+
+Important feasibility gates:
+- A full split/razor workflow needs a tested implementation; trimming methods
+  alone do not prove every split case is covered.
+- Parameter APIs do not prove every built-in or third-party effect is writable.
+- Transcript APIs do not establish complete caption-track text/style control.
+- Generative media, advanced masks, automatic reframing and stabilization need
+  separate API-access and completion checks before product commitments.
+- UXP transactions do not prove identical undo behavior in the legacy connector.
+
+8. FIRST RELEASE: CUSTOM TIMELINE COMMANDS
+
+Proposed initial action set, enabled only after its feasibility test passes:
+1. Inspect the active sequence and resolve selected clips/ranges.
+2. Clone the sequence for a new edit.
+3. Rename or enable/disable selected clip instances.
+4. Move and duplicate clips with an explicit destination/offset.
+5. Trim starts/ends using seconds, frames or timecode.
+6. Remove selected clips, with an explicit leave-gap or ripple choice.
+7. Insert or overwrite a specified source range at a stated destination.
+8. Add a small catalog of tested video transitions.
+9. Adjust tested position/scale/opacity and clip-volume parameters.
+10. Execute a saved recipe composed of supported actions.
+
+Split/range extraction, gap closing across tracks and keyframed recipes are
+next candidates after their timing and linked-media behavior are proven.
+
+Future modules:
+- Dialogue: transcript search, pause/repeated-take suggestions and selects.
+- Captions: timed subtitle exchange and supported style/template workflows.
+- Graphics: approved MOGRTs and exposed text controls.
+- Finishing: tested color/audio recipes, reframing and export workflows.
+- Editorial assistance: B-roll suggestions, beat-aware pacing and cut-downs.
+
+Requests such as 'make it cinematic' need a concrete recipe or a brief describing
+pacing, framing, color and sound. They cannot have one universal correct result.
+
+9. BUILD PROCEDURE AND REVIEW GATES
+
+Stage A - Capability proof on 26.2
+Load a development panel. Read the active sequence/selection, clone a sequence,
+trim a clip, move a linked pair, add a transition and change one parameter.
+Verify read-back and recovery. Produce an action-by-action evidence report.
+If an action fails, narrow or change its implementation before promising it.
+
+Stage B - First complete command
+Implement natural-language analysis, a validated structured plan and the preview
+for 'trim the selected linked pair by two seconds without rippling.' Execute
+on a copied sequence and compare the result with the plan.
+
+Stage C - First-release action catalog
+Add the tested initial actions, multi-step plans, saved recipes, cancellation,
+progress and useful error messages. Detect concurrent timeline edits.
+
+Stage D - Legacy compatibility
+Implement the CEP connector and run the same supported-command scenarios on
+the selected older hosts. Publish exact tested builds and any feature differences.
+
+Stage E - Installation and handoff
+Package the modern and legacy connectors, setup the companion and model choice,
+document installation/recovery, and deliver a short sample project/workflow.
+Do not label a build supported before testing it on that build.
+
+10. ACCEPTANCE CHECKS
+
+Use real Premiere integration checks and focused timing/planner tests:
+- Precise instruction targets only the intended clip instances and ranges.
+- Selected linked audio/video stays aligned after the edit.
+- A trim is frame-accurate; insert/overwrite/ripple behavior matches the preview.
+- Locked tracks and overlapping material are handled according to the operation.
+- Missing handles, missing effects and unsupported host features are explained.
+- A changed timeline invalidates a stale plan.
+- Recovery works as advertised on each connector; partial completion is visible.
+- Repeat/cancel/retry cannot silently apply the same mutation twice.
+- Check 23.976, 25, 29.97 and 30 fps, including drop-frame display where relevant.
+- Test nested, multicam, retimed and offline clips before enabling those cases.
+- Run the same declared command suite on every supported Premiere build.
+
+11. DECISION FOR YOU
+
+Recommended scope to approve:
+'Build RIXU Premiere Assistant for custom timeline instructions. Start on my
+installed Premiere 26.2, prove the core edits, and add tested older-version
+support through a separate connector.'
+
+This approval is for the proposed implementation direction. Research and this
+blueprint are complete; a functional plugin, compatibility certification and
+live editing tests remain to be done.
+
+SOURCES - OFFICIAL ADOBE DOCUMENTATION REVIEWED
+
+[1] Tools panel
+https://helpx.adobe.com/premiere/desktop/get-started/tour-the-workspace/tools-panel-and-options-panel.html
+[2] Editing and trimming
+https://www.adobe.com/products/premiere/editing-and-trimming.html
+[3] Speed and duration
+https://helpx.adobe.com/premiere/desktop/edit-projects/change-clip-speed/different-ways-to-change-clip-speed-and-duration.html
+[4] Premiere desktop help and workflow index
+https://helpx.adobe.com/premiere/desktop.html
+[5] Ingest and proxies
+https://helpx.adobe.com/premiere/desktop/organize-media/ingest-proxy-workflow/ingest-and-proxy-workflow.html
+[6] J and L cuts
+https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html
+[7] Multicamera source sequences
+https://helpx.adobe.com/premiere/desktop/edit-projects/set-up-multi-camera-sequences-for-editing/create-a-multi-camera-source-sequence.html
+[8] Text-Based Editing
+https://helpx.adobe.com/premiere/desktop/edit-projects/edit-video-using-text-based-editing/overview-of-text-based-editing.html
+[9] Release-specific new features
+https://helpx.adobe.com/premiere/desktop/whats-new/whats-new.html
+[10] Create captions
+https://helpx.adobe.com/in/premiere/desktop/add-text-images/insert-captions/create-captions.html
+[11] Motion Graphics templates
+https://helpx.adobe.com/premiere/desktop/add-text-images/use-motion-graphics-templates/about-motion-graphics-templates.html
+[12] Keyframes
+https://helpx.adobe.com/premiere/desktop/add-video-effects/control-effects-and-transitions-using-keyframes/about-keyframes.html
+[13] Effects
+https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/about-effects-and-effects-panel.html
+[14] Compositing
+https://helpx.adobe.com/premiere/desktop/add-video-effects/work-with-composites/compositing-overview.html
+[15] Object masking (beta)
+https://helpx.adobe.com/premiere/desktop/add-video-effects/work-with-masks/object-masking.html
+[16] Color correction workflow
+https://helpx.adobe.com/premiere/desktop/correct-color/color-correction-fundamentals/color-correction-workflow.html
+[17] Color management
+https://helpx.adobe.com/premiere/desktop/correct-color/set-up-color-management/about-color-management.html
+[18] Essential Sound
+https://helpx.adobe.com/premiere/desktop/add-audio-effects/adjust-volume-and-levels/audio-editing-with-essential-sound-panel.html
+[19] Media intelligence
+https://helpx.adobe.com/premiere/desktop/organize-media/file-organization/media-intelligence-and-search-panel.html
+[20] Generative Extend
+https://helpx.adobe.com/premiere/desktop/edit-projects/edit-with-generative-ai/generative-extend-overview.html
+[21] Team Projects and Productions
+https://helpx.adobe.com/premiere/desktop/collaborate-with-others/collaborate-using-team-projects/when-to-use-team-projects-and-when-to-use-productions.html
+[22] Export
+https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/export-video.html
+[23] Premiere AI Assistant (beta)
+https://helpx.adobe.com/premiere/desktop/premiere-ai-assistant/overview.html
+[24] Adobe extension platforms
+https://developer.adobe.com/premiere-pro/
+[25] UXP first plugin and prerequisites
+https://developer.adobe.com/premiere-pro/uxp/plugins/
+[26] UXP DOM overview and API minimum-version guidance
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/
+[27] Adobe CEP resources
+https://github.com/Adobe-CEP/CEP-Resources
+[28] Sequence API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/sequence/
+[29] SequenceEditor API
+https://developer.adobe.com/premiere-pro/uxp/ppro_reference/classes/sequenceeditor/
+[30] Video clip API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/videocliptrackitem/
+[31] Audio clip API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/audiocliptrackitem/
+[32] Parameter/keyframe API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/componentparam/
+[33] Project/transaction API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/project/
+[34] Transcript API
+https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/transcript/

@@ -1,0 +1,12 @@
+{
+  "id": "com.rixu.premiere.native",
+  "name": "RIXU Native Transcription",
+  "version": "0.1.2",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": [{"app": "premierepro", "minVersion": "25.6.0"}],
+  "requiredPermissions": {"network": {"domains": ["http://127.0.0.1:48163"]}},
+  "entrypoints": [{"type": "panel", "id": "nativeBridge", "label": {"default": "RIXU Native Transcription"},
+    "minimumSize": {"width": 260, "height": 160}, "preferredDockedSize": {"width": 300, "height": 180},
+    "preferredFloatingSize": {"width": 350, "height": 230}}]
+}

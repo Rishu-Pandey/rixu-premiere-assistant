@@ -1,0 +1,13 @@
+{
+  "name": "rixu-premiere-assistant",
+  "version": "0.4.3",
+  "private": true,
+  "description": "Premiere panel with editable SUPERMODE captions and library sound design",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
